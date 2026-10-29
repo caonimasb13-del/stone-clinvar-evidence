@@ -1,0 +1,828 @@
+{
+  "status": "ALL66_MATERIALIZED_LOCALLY_PUBLIC_INPUT_ACCESS_STILL_PENDING",
+  "counting_unit": "Runtime file identity requirement, not independent dataset/model/patient",
+  "files": [
+    {
+      "target": "resources/expected_original26/Aux_all_raw_status_values.tsv",
+      "bytes": 1174,
+      "sha256": "ee899f312c5d5917eefe7ae00adb00a628faeafaf66b75e0b7010f8dabf19225",
+      "group": "26_existing_reference_tables",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "resources/expected_original26/Aux_fixed_coverage_figure_labels.tsv",
+      "bytes": 723,
+      "sha256": "898408736ae5c8d735ba0647430aa07a4494a25b9342fd99b786b21369fa55d0",
+      "group": "26_existing_reference_tables",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "resources/expected_original26/Aux_review_by_contribution.tsv",
+      "bytes": 2086,
+      "sha256": "24a70cd56fa347cea8fffa690d51b1d348f8aea7c708ba685179f9d480d273b4",
+      "group": "26_existing_reference_tables",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "resources/expected_original26/Figure4_fixed38_source_data.csv",
+      "bytes": 5477,
+      "sha256": "0d6400312bc6ed029afbe983b6b07622c4c69539663bcd928b7447f5a220651b",
+      "group": "26_existing_reference_tables",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "resources/expected_original26/ST10_all1800_direction_cells.tsv",
+      "bytes": 164124,
+      "sha256": "77cf28d67bb3c1ac93998772f4c0ac1d6891d4309616955d001983601a898657",
+      "group": "26_existing_reference_tables",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "resources/expected_original26/ST1_all1141_variant_transparency.tsv",
+      "bytes": 541332,
+      "sha256": "ec3448944c6ff8364768625349c8ee6f53754bf3fd81373726d3cf3aab8e29ac",
+      "group": "26_existing_reference_tables",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "resources/expected_original26/ST2_all2320_endpoint_source_rows.tsv",
+      "bytes": 1253182,
+      "sha256": "bb226c03293584c7c654d2d80a4ee70e6fa2d29cd8a6c5bbbb460223bd38d487",
+      "group": "26_existing_reference_tables",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "resources/expected_original26/ST3_all4704_fixed_cross_cells.tsv",
+      "bytes": 259324,
+      "sha256": "71f0a215c5eae9b6fb5af0b70c0dccd0b879c075f9d43b3a103f31b8600ea3e2",
+      "group": "26_existing_reference_tables",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "resources/expected_original26/ST4_all_endpoint_marginals.tsv",
+      "bytes": 874,
+      "sha256": "8da8bdcfaaf10878cfb21324a60d906d08a48fc8b1766712c41bee66cbd07d69",
+      "group": "26_existing_reference_tables",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "resources/expected_original26/ST5_all35_gene_landscape.tsv",
+      "bytes": 3500,
+      "sha256": "d989ecf89734f5c3736dae8938df349bc808201be1343297a711308a2a9e29fe",
+      "group": "26_existing_reference_tables",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "resources/expected_original26/ST6_all265_historical_sources.tsv",
+      "bytes": 26684,
+      "sha256": "8a9637628081bf54ba772a33ce579536b059cbc9a744466984cd8ff7f8ddffd2",
+      "group": "26_existing_reference_tables",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "resources/expected_original26/ST7_all35_gene_omissions.tsv",
+      "bytes": 9867,
+      "sha256": "6dd2e067be8b1f187b8b7efa05ba552e1461171a113d2c62521fafcd56b1aa2b",
+      "group": "26_existing_reference_tables",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "resources/expected_original26/ST8_all265_historical_source_omissions.tsv",
+      "bytes": 27276,
+      "sha256": "f36194e32a095e7445cbc01b57383a2e7e0ebcdaf9562831c107470f2b65df88",
+      "group": "26_existing_reference_tables",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "resources/expected_original26/ST9_all96_current_source_dependencies.tsv",
+      "bytes": 17789,
+      "sha256": "4339df753c7502d56207cc88efb53931280ff73fd9f95eb0bfd25698e5946634",
+      "group": "26_existing_reference_tables",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "resources/expected_original26/T10_ALL5_examples_ALL_observed_strict_update_events.tsv",
+      "bytes": 1037,
+      "sha256": "98cd380ee55d2e151917b5a06db2e0da74fe0e2ae5b90eebb957fe446b0a530f",
+      "group": "26_existing_reference_tables",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "resources/expected_original26/T1_distinct_tasks_units_denominators_and_scope.tsv",
+      "bytes": 703,
+      "sha256": "e99f78395bacd213341db26331993ba74ec93f1d905fd2d2c546ef1eb1403336",
+      "group": "26_existing_reference_tables",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "resources/expected_original26/T2_all6_strict_update_directions_including_zeros.tsv",
+      "bytes": 92,
+      "sha256": "c2211248839f0622b44ac2c603455a5db84ee3e8120c15ccab74656e95b45c84",
+      "group": "26_existing_reference_tables",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "resources/expected_original26/T3_ALL_current_dated_contrast_statuses.tsv",
+      "bytes": 195,
+      "sha256": "1c272b99faa5d4f71c6e913a4c43b12521a1bd4c6e7d1c5a80b32f0e9c8395b0",
+      "group": "26_existing_reference_tables",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "resources/expected_original26/T4_complete_identifier_scope_ALL6_task_cells_with_empty_cell.tsv",
+      "bytes": 266,
+      "sha256": "bca98f7eeac3863791ab9e0012381e7b853025dc4ae33c21069baf7380ef7015",
+      "group": "26_existing_reference_tables",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "resources/expected_original26/T5_raw_condition_string_identity_separate_definition.tsv",
+      "bytes": 68,
+      "sha256": "4b1df69f9c536e0dd317f256bd24324b9c8a8c91554549626a2a41fc13c15faa",
+      "group": "26_existing_reference_tables",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "resources/expected_original26/T6_ALL_original_A_corrected_B_and_B_IDonly_condition_categories.tsv",
+      "bytes": 387,
+      "sha256": "193e810ada171bb112410a1da06c88aa53bfaab259e941c85ab47b32cf425523",
+      "group": "26_existing_reference_tables",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "resources/expected_original26/T7_ALL_fixed_sensitivity_values_correct_units.tsv",
+      "bytes": 1860,
+      "sha256": "0a119c64de780f5d94b083c1266e589dba7bfb0cfa6e97f64f27477f910c1aea",
+      "group": "26_existing_reference_tables",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "resources/expected_original26/T7_v2_ALL_fixed_sensitivity_units_rules_and_existing_endpoint34.tsv",
+      "bytes": 5343,
+      "sha256": "3c96b990a86b1df3c7ee8317fd442d94fbd3116d531d9596a51e17f8091b1d49",
+      "group": "26_existing_reference_tables",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "resources/expected_original26/T8_ALL5_original_deterministic_examples_unchanged_selection.tsv",
+      "bytes": 1307,
+      "sha256": "1c82016cfc7049bb0b32a4a852847c49a0afb21ccad396a3b8cd2a6c241bdb3f",
+      "group": "26_existing_reference_tables",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "resources/expected_original26/T8_v2_ALL5_unchanged_examples_explicit_reported_C_ID_stratum.tsv",
+      "bytes": 2986,
+      "sha256": "c90d562a2a2f29f8be1fa7e81be8d582047ae299c7e98ea9ba36403d4018e56b",
+      "group": "26_existing_reference_tables",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "resources/expected_original26/T9_ALL5_examples_ALL_current_endpoint_source_rows_no_filter.tsv",
+      "bytes": 5827,
+      "sha256": "38aedf5700e758838be19529288cadfbcd875323861dc192fad308b5110ecd5a",
+      "group": "26_existing_reference_tables",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "resources/frozen/36_corrected_scope_categories_with_clinical_reading_limits.tsv",
+      "bytes": 756,
+      "sha256": "a054c644562ef37934a7de4d172fb4ad7533fbd3d1c5a200352d62d0f2e1e7e8",
+      "group": "10_generation_configuration_and_provenance_resources",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "resources/frozen/checkpoint15_manifest.json",
+      "bytes": 5654,
+      "sha256": "b1204ec1dbade99d16b1e02332be49e3df972ad665ebe16c0665846b51bd1919",
+      "group": "10_generation_configuration_and_provenance_resources",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "resources/frozen/selected_extraction_receipt_verified_old_replay.json",
+      "bytes": 7622,
+      "sha256": "ed4aaea57beb5e293d1298a219b6fff425986c8d1de2e0c8cf300fa56fe98602",
+      "group": "10_generation_configuration_and_provenance_resources",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "resources/frozen/source_deletion_protocol_original.json",
+      "bytes": 38268,
+      "sha256": "bab32cda9870704180de4ec24a0afcdca83791bf3ee88d01a7f9fc8b626984e6",
+      "group": "10_generation_configuration_and_provenance_resources",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "resources/frozen/transparency_protocol_original.json",
+      "bytes": 6593,
+      "sha256": "7e0e558f9abf2ef24bb37305252f3b1320258024d909eadd6f04e270680a39c0",
+      "group": "10_generation_configuration_and_provenance_resources",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "resources/full_raw_core/frozen/external_dictionary_original.json",
+      "bytes": 121233,
+      "sha256": "c1c65ba7272a4b3f7cf34dc79cc0f2663628c233d4cac95d5ea72e156d8920ef",
+      "group": "10_generation_configuration_and_provenance_resources",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "resources/full_raw_core/frozen/external_panel_original.json",
+      "bytes": 74781,
+      "sha256": "f4fbd6add51fc3faec1cd181a8e25187d57c6202ceb0d0711aa9056d82d21d74",
+      "group": "10_generation_configuration_and_provenance_resources",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "resources/full_raw_core/frozen/release_and_use_task_protocol.json",
+      "bytes": 3144,
+      "sha256": "0b7f6f447e9484e59eefa1a6a2f040f688cfc4b902625a5b928a754e91b3a1e2",
+      "group": "10_generation_configuration_and_provenance_resources",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "resources/full_raw_core/frozen/scientific_protocol_original.json",
+      "bytes": 26797,
+      "sha256": "44c6202ddeb48087248a382fd01bccaba0e94b43dc50a0e6ab3d6e3a192acdcd",
+      "group": "10_generation_configuration_and_provenance_resources",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "resources/full_raw_core/frozen/scope_repair_protocol_original.json",
+      "bytes": 5701,
+      "sha256": "c5f3dbe034af2847098f0f1c2983b4accaece0770b2e1173af6b1fa8d02e011b",
+      "group": "10_generation_configuration_and_provenance_resources",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "checkpoints/variant_summary_2025-10.txt.gz.selected_all_associations.jsonl.gz",
+      "bytes": 6320068,
+      "sha256": "cf4cb98ff6b33b681a2a414943c65480c5a872e4a862058c02101b0253aa837f",
+      "group": "15_selected_row_checkpoints",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "checkpoints/variant_summary_2026-10.txt.gz.selected_all_associations.jsonl.gz",
+      "bytes": 7118740,
+      "sha256": "58714fa7c9c40fdeec1b6b67540e25cb11a6865af398b59fd957122ce063b10d",
+      "group": "15_selected_row_checkpoints",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "checkpoints/submission_summary_2025-10.txt.gz.SCV_closed.jsonl.gz",
+      "bytes": 5367946,
+      "sha256": "d4ab3b384aaaa834d5503af31b909bc9771db64985432d99944d002803763a07",
+      "group": "15_selected_row_checkpoints",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "checkpoints/submission_summary_2025-11.txt.gz.SCV_closed.jsonl.gz",
+      "bytes": 5477766,
+      "sha256": "a89a35efa85e0635b98f4a0375188f57a63ce21021dc378bd23ce2888c077102",
+      "group": "15_selected_row_checkpoints",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "checkpoints/submission_summary_2025-12.txt.gz.SCV_closed.jsonl.gz",
+      "bytes": 5516460,
+      "sha256": "e51ab78a326f331f8287ca539f11de32b987ec14d5e213579c89927790b1bb55",
+      "group": "15_selected_row_checkpoints",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "checkpoints/submission_summary_2026-01.txt.gz.SCV_closed.jsonl.gz",
+      "bytes": 5533071,
+      "sha256": "10964795a24f47fa17cdc6671062149494a9f0c5e1205b269a6c61f97fc5b0af",
+      "group": "15_selected_row_checkpoints",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "checkpoints/submission_summary_2026-02.txt.gz.SCV_closed.jsonl.gz",
+      "bytes": 5668986,
+      "sha256": "f6932ea0fcbe4f25cde5cc7f93673f2b026acd9b744cf58976e1e523d9d06f9c",
+      "group": "15_selected_row_checkpoints",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "checkpoints/submission_summary_2026-03.txt.gz.SCV_closed.jsonl.gz",
+      "bytes": 5832748,
+      "sha256": "54f0b079d5f0b7e15f93c4bcb91fd1a9cad2dac68b0d1e5b2dfbbc4f78ad28e2",
+      "group": "15_selected_row_checkpoints",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "checkpoints/submission_summary_2026-04.txt.gz.SCV_closed.jsonl.gz",
+      "bytes": 5826995,
+      "sha256": "b3e458c38202d7e75a54c32d0faaecdb9cd5c95bf8b96d0ecd349022a8774286",
+      "group": "15_selected_row_checkpoints",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "checkpoints/submission_summary_2026-05.txt.gz.SCV_closed.jsonl.gz",
+      "bytes": 5942766,
+      "sha256": "6f51c7fef1d772d68875aa1f93a735b663ad624c1e997da72f3ef628bd749df2",
+      "group": "15_selected_row_checkpoints",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "checkpoints/submission_summary_2026-06.txt.gz.SCV_closed.jsonl.gz",
+      "bytes": 5965402,
+      "sha256": "950bf17ee05c2084832c94f8ae06269d0d9be1d9e51cd6ffca8c92e284659a78",
+      "group": "15_selected_row_checkpoints",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "checkpoints/submission_summary_2026-07.txt.gz.SCV_closed.jsonl.gz",
+      "bytes": 6006924,
+      "sha256": "fbd48afd55ebf94ad9daf6476006a45c0a962e4ead5f9553609011fd2b26e248",
+      "group": "15_selected_row_checkpoints",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "checkpoints/submission_summary_2026-08.txt.gz.SCV_closed.jsonl.gz",
+      "bytes": 6040772,
+      "sha256": "0131daff71771657c3f19b8f201ab13a5415a9bd52a9aa1127a330654c88b928",
+      "group": "15_selected_row_checkpoints",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "checkpoints/submission_summary_2026-09.txt.gz.SCV_closed.jsonl.gz",
+      "bytes": 6057938,
+      "sha256": "32fe4231d575b971e2956567138ded5b15a92c6ed586d75ddd587073b66b175e",
+      "group": "15_selected_row_checkpoints",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "checkpoints/submission_summary_2026-10.txt.gz.SCV_closed.jsonl.gz",
+      "bytes": 6261409,
+      "sha256": "15c1d266b942a90e2a75e659e5e5048a1cb3f0b29ae6a5c267b6a6b3130440c6",
+      "group": "15_selected_row_checkpoints",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "dictionaries/NCBI_gene_condition_source_id.tsv",
+      "bytes": 1256057,
+      "sha256": "2adec39b1c0311c8430dc5c72504a4de66b73eab2ed17a09ca2fdf0c25f2dbef",
+      "group": "6_pinned_dictionary_files",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "dictionaries/NCBI_disease_names.tsv",
+      "bytes": 5648963,
+      "sha256": "8d1fd44bf5fe24a20640bda7e2d884730502d2501f4d4630f80772df041a21f4",
+      "group": "6_pinned_dictionary_files",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "dictionaries/NCBI_ConceptID_history.tsv",
+      "bytes": 1468120,
+      "sha256": "a1ecc8212fe3778474482b258301034dd139e53fe1e4d58d601a69a6ef9f849e",
+      "group": "6_pinned_dictionary_files",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "dictionaries/hp.obo",
+      "bytes": 10863613,
+      "sha256": "93dace952fcb3ec4728818857f6ba76bc2d5312f4d83266519b8694b8e798f22",
+      "group": "6_pinned_dictionary_files",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "dictionaries/phenotype.hpoa",
+      "bytes": 35816037,
+      "sha256": "e89aa39c8f97bf5a52c5d160f9250a603681d630ade8ec2679d84ac5aece1f72",
+      "group": "6_pinned_dictionary_files",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "dictionaries/genes_to_disease.txt",
+      "bytes": 1492039,
+      "sha256": "7937a1b92779dc8614e39ace623b443c7c71dd15e4de11d5e52b14e331ab5978",
+      "group": "6_pinned_dictionary_files",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "reference_core/all_endpoint_variant_identity_and_exclusions.jsonl.gz",
+      "bytes": 842459,
+      "sha256": "3087b0b4106dcf1b4dc08446166ea3606b34444dc1d62cc771cbc4dc382c01cf",
+      "group": "9_existing_core_reference_outputs",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "reference_core/all_selected_SCV_eligibility_and_source_refs.jsonl.gz",
+      "bytes": 9640504,
+      "sha256": "93d5ce6ab0e955db5aad14c5bcacc81b016e1f7a06de7fdfbcbadabc7f6ced2a",
+      "group": "9_existing_core_reference_outputs",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "reference_core/all_primary_major_events.jsonl.gz",
+      "bytes": 5786,
+      "sha256": "d2afeb0045721ab9f07a51218d07db91abbb9a02596465bfce7518410dd14a7d",
+      "group": "9_existing_core_reference_outputs",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "reference_core/all_five_level_classification_events.jsonl.gz",
+      "bytes": 992,
+      "sha256": "867434299ddb45b2c012fa937a51fce5750a40b77a39ea9a0893a6537c50053d",
+      "group": "9_existing_core_reference_outputs",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "reference_core/all_adjacent_pair_major_events.jsonl.gz",
+      "bytes": 11166,
+      "sha256": "0751deaceae63f01ffa7b1ec644007703b7d573a1e919f17988c3c360a097c7b",
+      "group": "9_existing_core_reference_outputs",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "reference_core/all_current_dated_assertion_contrasts.jsonl.gz",
+      "bytes": 682722,
+      "sha256": "72ec75dfd6b028976af9e6c7965fb7142b607b74c365d09327c5cac20e0abdf8",
+      "group": "9_existing_core_reference_outputs",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "reference_core/all_latest_PLP_aggregate_condition_scope_and_sources.jsonl.gz",
+      "bytes": 1382627,
+      "sha256": "2d0e68bcb41df020e86efe3eb92914aacbc49b1294ad8e7313e9da2289e07a15",
+      "group": "9_existing_core_reference_outputs",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "reference_core/all_current_dated_contrast_complete_ID_sensitivity.jsonl.gz",
+      "bytes": 244374,
+      "sha256": "37f2c53d4187b4bcd4d376010989c2523049532d30dead1a32db6bdc46faf4a8",
+      "group": "9_existing_core_reference_outputs",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    },
+    {
+      "target": "reference_corrected/all4078_original_and_corrected_condition_scope_with_sources.jsonl.gz",
+      "bytes": 2041891,
+      "sha256": "beb47e550c1a06b4e5c52a1e06878edb30e5cdbe46b10405baabd34cbd6fe09a",
+      "group": "9_existing_core_reference_outputs",
+      "included_in_local_HOLD_bundle": true,
+      "uploaded_to_repository": false,
+      "public_deposit_access_established": false
+    }
+  ],
+  "source_routes": {
+    "scope": "Selected original provenance fields only; not raw HTTP headers, cookies, signed URLs or internal ledgers",
+    "raw_archive_sources": [
+      {
+        "url": "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/archive/variant_summary_2025-10.txt.gz",
+        "bytes": 384432958,
+        "sha256": "b99920190c2eb00382cf9ec154442bb83fe5a14a397f93e6db22c8fda094fc77",
+        "release_date": "2025-10-02 00:05:01",
+        "filename": "variant_summary_2025-10.txt.gz",
+        "historical_gzip_EOF_CRC_ISIZE_pass": true,
+        "liveness_or_body_rechecked_this_round": false
+      },
+      {
+        "url": "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/archive/variant_summary_2026-10.txt.gz",
+        "bytes": 450727547,
+        "sha256": "a6a58df4d9049c9187a79a8fb4e70f1f3b5550e1708c6c74b7be0b268f5032da",
+        "release_date": "2026-10-01 00:05:02",
+        "filename": "variant_summary_2026-10.txt.gz",
+        "historical_gzip_EOF_CRC_ISIZE_pass": true,
+        "liveness_or_body_rechecked_this_round": false
+      },
+      {
+        "url": "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/archive/submission_summary_2025-10.txt.gz",
+        "bytes": 336409343,
+        "sha256": "9d55341fded9c9077f0f06532d4106f625816f1b2972f0ffbf0441f7657d0e40",
+        "release_date": "2025-10-02 00:05:37",
+        "filename": "submission_summary_2025-10.txt.gz",
+        "historical_gzip_EOF_CRC_ISIZE_pass": true,
+        "liveness_or_body_rechecked_this_round": false
+      },
+      {
+        "url": "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/archive/submission_summary_2025-11.txt.gz",
+        "bytes": 348275487,
+        "sha256": "8fd6008a6ab9bfc8773bbc5be31c61e611c6f74113dbf9a7cd846408aa469816",
+        "release_date": "2025-11-06 00:05:42",
+        "filename": "submission_summary_2025-11.txt.gz",
+        "historical_gzip_EOF_CRC_ISIZE_pass": true,
+        "liveness_or_body_rechecked_this_round": false
+      },
+      {
+        "url": "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/archive/submission_summary_2025-12.txt.gz",
+        "bytes": 349592777,
+        "sha256": "5e6cb8daa0c6fc6aee681c70145c8475b038791f8d86e01bf99db9b4058132c0",
+        "release_date": "2025-12-04 00:05:40",
+        "filename": "submission_summary_2025-12.txt.gz",
+        "historical_gzip_EOF_CRC_ISIZE_pass": true,
+        "liveness_or_body_rechecked_this_round": false
+      },
+      {
+        "url": "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/archive/submission_summary_2026-01.txt.gz",
+        "bytes": 351445028,
+        "sha256": "4320ccb90f7c40cb4fe6a00dbf3407735d28fb11dcc1a41654f4dfd93520dd1a",
+        "release_date": "2026-01-01 00:05:39",
+        "filename": "submission_summary_2026-01.txt.gz",
+        "historical_gzip_EOF_CRC_ISIZE_pass": true,
+        "liveness_or_body_rechecked_this_round": false
+      },
+      {
+        "url": "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/archive/submission_summary_2026-02.txt.gz",
+        "bytes": 361310561,
+        "sha256": "434b58db4798c3c04765a37ad8fb80653f553cf5ef99747093122ae60ea16544",
+        "release_date": "2026-02-05 00:05:50",
+        "filename": "submission_summary_2026-02.txt.gz",
+        "historical_gzip_EOF_CRC_ISIZE_pass": true,
+        "liveness_or_body_rechecked_this_round": false
+      },
+      {
+        "url": "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/archive/submission_summary_2026-03.txt.gz",
+        "bytes": 372547268,
+        "sha256": "dfc875bc831292b857d8d0a85eb57157452e12f04fbc3591addbf59208de727f",
+        "release_date": "2026-03-05 00:05:41",
+        "filename": "submission_summary_2026-03.txt.gz",
+        "historical_gzip_EOF_CRC_ISIZE_pass": true,
+        "liveness_or_body_rechecked_this_round": false
+      },
+      {
+        "url": "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/archive/submission_summary_2026-04.txt.gz",
+        "bytes": 373962702,
+        "sha256": "1bd2e1f6df82c3f931deb5a81888e8eb59c93269066ef74cbd531b278818e35b",
+        "release_date": "2026-04-02 00:05:41",
+        "filename": "submission_summary_2026-04.txt.gz",
+        "historical_gzip_EOF_CRC_ISIZE_pass": true,
+        "liveness_or_body_rechecked_this_round": false
+      },
+      {
+        "url": "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/archive/submission_summary_2026-05.txt.gz",
+        "bytes": 380512398,
+        "sha256": "8b1a4b9a4fa4696910db292f2fff95a875fd7c825e0dd79eabbd742b6a93f01d",
+        "release_date": "2026-05-07 00:05:49",
+        "filename": "submission_summary_2026-05.txt.gz",
+        "historical_gzip_EOF_CRC_ISIZE_pass": true,
+        "liveness_or_body_rechecked_this_round": false
+      },
+      {
+        "url": "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/archive/submission_summary_2026-06.txt.gz",
+        "bytes": 381749668,
+        "sha256": "95ddc62ab996a68a443c2901f6eb75bb79a747bad788e0c1436626af4ee53855",
+        "release_date": "2026-06-04 00:05:46",
+        "filename": "submission_summary_2026-06.txt.gz",
+        "historical_gzip_EOF_CRC_ISIZE_pass": true,
+        "liveness_or_body_rechecked_this_round": false
+      },
+      {
+        "url": "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/archive/submission_summary_2026-07.txt.gz",
+        "bytes": 383437686,
+        "sha256": "bf1051d450556631da484edf5a1505bbd0afa33dfc1c246f741a8a741ab55539",
+        "release_date": "2026-07-02 00:05:46",
+        "filename": "submission_summary_2026-07.txt.gz",
+        "historical_gzip_EOF_CRC_ISIZE_pass": true,
+        "liveness_or_body_rechecked_this_round": false
+      },
+      {
+        "url": "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/archive/submission_summary_2026-08.txt.gz",
+        "bytes": 385522058,
+        "sha256": "b84813f8a63c58bad1163bb97a8fe337639a69736857b111b82e4cd3d80f7ee6",
+        "release_date": "2026-08-06 00:05:46",
+        "filename": "submission_summary_2026-08.txt.gz",
+        "historical_gzip_EOF_CRC_ISIZE_pass": true,
+        "liveness_or_body_rechecked_this_round": false
+      },
+      {
+        "url": "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/archive/submission_summary_2026-09.txt.gz",
+        "bytes": 387212719,
+        "sha256": "b0ccaaa55f6fda051887182906a71f0de5fbdfa619406a2cad438de2208703b6",
+        "release_date": "2026-09-03 00:05:46",
+        "filename": "submission_summary_2026-09.txt.gz",
+        "historical_gzip_EOF_CRC_ISIZE_pass": true,
+        "liveness_or_body_rechecked_this_round": false
+      },
+      {
+        "url": "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/archive/submission_summary_2026-10.txt.gz",
+        "bytes": 394172714,
+        "sha256": "c93758c972fbeb958b49aa560a374bdaf5c57cc4f159644a19bed88200a870ac",
+        "release_date": "2026-10-01 00:05:53",
+        "filename": "submission_summary_2026-10.txt.gz",
+        "historical_gzip_EOF_CRC_ISIZE_pass": true,
+        "liveness_or_body_rechecked_this_round": false
+      }
+    ],
+    "dictionary_sources": [
+      {
+        "filename": "NCBI_gene_condition_source_id.tsv",
+        "bytes": 1256057,
+        "sha256": "2adec39b1c0311c8430dc5c72504a4de66b73eab2ed17a09ca2fdf0c25f2dbef",
+        "recorded_source_url": "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/gene_condition_source_id",
+        "retrieved_utc": "2026-10-04T04:45:15.279917+00:00",
+        "recorded_last_modified": "Sat, 03 Oct 2026 14:17:26 GMT",
+        "origin_route": "Unversioned NCBI endpoint; exact dated bytes preserved locally",
+        "version_pinned_URL": false,
+        "evidence": "stage38/logs/external_condition_metadata_retrieval.json",
+        "liveness_or_latest_body_rechecked_this_round": false
+      },
+      {
+        "filename": "NCBI_disease_names.tsv",
+        "bytes": 5648963,
+        "sha256": "8d1fd44bf5fe24a20640bda7e2d884730502d2501f4d4630f80772df041a21f4",
+        "recorded_source_url": "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/disease_names",
+        "retrieved_utc": "2026-10-04T04:45:19.904098+00:00",
+        "recorded_last_modified": "Sat, 03 Oct 2026 14:14:12 GMT",
+        "origin_route": "Unversioned NCBI endpoint; exact dated bytes preserved locally",
+        "version_pinned_URL": false,
+        "evidence": "stage38/logs/external_condition_metadata_retrieval.json",
+        "liveness_or_latest_body_rechecked_this_round": false
+      },
+      {
+        "filename": "NCBI_ConceptID_history.tsv",
+        "bytes": 1468120,
+        "sha256": "a1ecc8212fe3778474482b258301034dd139e53fe1e4d58d601a69a6ef9f849e",
+        "recorded_source_url": "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/ConceptID_history.txt",
+        "retrieved_utc": "2026-10-04T04:45:24.027020+00:00",
+        "recorded_last_modified": "Sat, 03 Oct 2026 14:14:01 GMT",
+        "origin_route": "Unversioned NCBI endpoint; exact dated bytes preserved locally",
+        "version_pinned_URL": false,
+        "evidence": "stage38/logs/external_condition_metadata_retrieval.json",
+        "liveness_or_latest_body_rechecked_this_round": false
+      },
+      {
+        "filename": "hp.obo",
+        "bytes": 10863613,
+        "sha256": "93dace952fcb3ec4728818857f6ba76bc2d5312f4d83266519b8694b8e798f22",
+        "recorded_source_url": "https://github.com/obophenotype/human-phenotype-ontology/releases/download/v2026-09-01/hp.obo",
+        "release_tag": "v2026-09-01",
+        "provider_asset_id": 541749283,
+        "provider_sha256": "sha256:93dace952fcb3ec4728818857f6ba76bc2d5312f4d83266519b8694b8e798f22",
+        "retrieved_utc": "2026-10-04T04:46:43.910506+00:00",
+        "version_pinned_URL": true,
+        "evidence": "stage38/logs/external_HPO_pinned_asset_protocol.json + external_HPO_asset_retrieval.json",
+        "liveness_or_latest_body_rechecked_this_round": false
+      },
+      {
+        "filename": "phenotype.hpoa",
+        "bytes": 35816037,
+        "sha256": "e89aa39c8f97bf5a52c5d160f9250a603681d630ade8ec2679d84ac5aece1f72",
+        "recorded_source_url": "https://github.com/obophenotype/human-phenotype-ontology/releases/download/v2026-09-01/phenotype.hpoa",
+        "release_tag": "v2026-09-01",
+        "provider_asset_id": 541761271,
+        "provider_sha256": "sha256:e89aa39c8f97bf5a52c5d160f9250a603681d630ade8ec2679d84ac5aece1f72",
+        "retrieved_utc": "2026-10-04T04:46:49.849722+00:00",
+        "version_pinned_URL": true,
+        "evidence": "stage38/logs/external_HPO_pinned_asset_protocol.json + external_HPO_asset_retrieval.json",
+        "liveness_or_latest_body_rechecked_this_round": false
+      },
+      {
+        "filename": "genes_to_disease.txt",
+        "bytes": 1492039,
+        "sha256": "7937a1b92779dc8614e39ace623b443c7c71dd15e4de11d5e52b14e331ab5978",
+        "recorded_source_url": "https://github.com/obophenotype/human-phenotype-ontology/releases/download/v2026-09-01/genes_to_disease.txt",
+        "release_tag": "v2026-09-01",
+        "provider_asset_id": 541759474,
+        "provider_sha256": "sha256:7937a1b92779dc8614e39ace623b443c7c71dd15e4de11d5e52b14e331ab5978",
+        "retrieved_utc": "2026-10-04T04:46:35.089791+00:00",
+        "version_pinned_URL": true,
+        "evidence": "stage38/logs/external_HPO_pinned_asset_protocol.json + external_HPO_asset_retrieval.json",
+        "liveness_or_latest_body_rechecked_this_round": false
+      }
+    ],
+    "raw_URLs_are_not_the_derived_checkpoint_files": true,
+    "rights_clearance": false,
+    "source_metadata_basis": "Preserved source receipts matched by exact required bytes and SHA256; no new network fetch."
+  },
+  "local_archive": {
+    "filename": "Stone_ClinVar_fixed_checkpoint_LOCAL_HOLD.zip",
+    "bytes": 110810904,
+    "sha256": "71e26182219a3a6395b491aa3b95ae4ec32a4ddd0f440f9c956e67a9ce337fb4",
+    "external_download_URL": null,
+    "public_licence_cleared": false
+  },
+  "remaining": "Exact public data delivery, upstream component terms and final public archive/identifier remain unresolved. The local pack contains frozen historic-path strings and must not be uploaded without its own cleared scope."
+}
