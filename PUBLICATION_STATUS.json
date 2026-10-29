@@ -16,5 +16,11 @@
   "expected_constants_and_classification_rules_present_in_code": true,
   "exported_driver_full_numerical_run_performed": false,
   "read_only_local_input_identity_preflight_passed": true,
-  "public_self_contained_reproduction": false
+  "public_self_contained_reproduction": false,
+  "non_numerical_manuscript_and_internal_ledger_runtime_dependencies_removed": true,
+  "affected_guard_change_validation": "PASS_ALL7_TABLE_BYTES_30_SUMMARY_FIELDS_AND_NEGATIVE_GUARD_FIXTURES",
+  "full_pipeline_or_second_host_validation": false,
+  "targeted_descriptive_steps_executed": 1,
+  "external_required_resource_files": 36,
+  "new_clinical_or_inferential_tests": 0
 }
