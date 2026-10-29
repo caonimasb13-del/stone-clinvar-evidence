@@ -4,7 +4,7 @@ No blanket software or data licence is assigned by these initialization files. A
 
 The preserved research used PanelApp panel149 signed-off6.2 and versioned ClinVar, HPO, Gene2Phenotype, ClinGen and NCBI mapping sources. Applicable PanelApp output-licensing scope, exact HPO ontology/annotation component grants and frozen Gene2Phenotype record terms remain unresolved in the local source audit. Linking to upstream content does not by itself close permissions affecting derived outputs. Frontend software licences are not substituted for data-record licences.
 
-No upstream ontology, annotation database, source-row checkpoint, protected manuscript, article full text or internal correspondence is included in this initialization candidate. Subsequent scientific code/data exports need their own per-file review and the precise input-access route required for reproduction.
+The scientific code candidate includes original algorithm rules and expected count constants. No upstream ontology, annotation database, source-row checkpoint, result-table content, protected manuscript, article full text or internal correspondence is uploaded with it. Subsequent scientific code/data exports need their own per-file review and the precise input-access route required for reproduction.
 
 Source-policy locations retained for attribution and review:
 
