@@ -1,21 +1,34 @@
-# Checkpoint numerical code export
+# Frozen numerical entry: external scientific inputs required
 
-This private code candidate separates executable code from the fixed source/configuration and comparison materials. The seven Python algorithm files, table-generator fragment and child write guard are copied byte-for-byte from the previously staged-tested local module. The orchestration driver changes only resource-root location; CODE_ADAPTATION_CONTRACT.json records the inverse-AST equality check. Algorithm code contains expected counts and classification rules; those constants are retained, not relabelled as new data or observations.
+This private preparation export separates code from exact scientific inputs. It is not a self-contained public data deposit or a full article pipeline.
 
-Use Python 3.11 or later, standard library only. Every input is supplied separately. No download occurs.
+## Entry
 
-Read-only preflight:
+Python 3.11 or later, standard library only. Supply a fresh workspace that does not exist.
 
-    python -B analysis/check_inputs_only.py --resources-dir FIXED_RESOURCES --checkpoints-dir CHECKPOINTS --dictionary-dir DICTIONARIES --reference-derived-dir REFERENCES --reference-corrected CORRECTED_REFERENCE
+```
+python analysis/check_inputs_only.py --resources-dir RESOURCES --checkpoints-dir CHECKPOINTS --dictionary-dir DICTIONARIES --reference-derived-dir REFERENCE_CORE --reference-corrected CORRECTED_JSONL
+python analysis/run_key_results.py --resources-dir RESOURCES --checkpoints-dir CHECKPOINTS --dictionary-dir DICTIONARIES --reference-derived-dir REFERENCE_CORE --reference-corrected CORRECTED_JSONL --workspace NEW_WORKSPACE
+```
 
-The preflight hashes code and the exact declared inputs. It writes no workspace, launches no scientific models and does not establish public input access or numerical correctness of this newly exported driver.
+external_resources.json now lists 36 required configuration/comparison resources, 15 checkpoint and six dictionary identities are in input_identities.json, and nine comparison-file identities are in reference_identities.json. These contents remain external and their exact public delivery is unresolved.
 
-Numerical entry, for a separately authorized computation with exact inputs:
+## Declared non-numerical repair
 
-    python -B analysis/run_key_results.py --resources-dir FIXED_RESOURCES --checkpoints-dir CHECKPOINTS --dictionary-dir DICTIONARIES --reference-derived-dir REFERENCES --reference-corrected CORRECTED_REFERENCE --workspace NEW_WORKSPACE
+The original two internal review ledgers were used only as generic input hash checks. The driver drops exactly those two checks and preserves all four scientific/configuration input entries and every historical rationale field in the Stage42 runtime protocol. The original local protocol and ledgers are preserved separately. No past human or AI review is reclassified.
 
-FIXED_RESOURCES must retain the directory structure and exact hashes in external_resources.json. CHECKPOINTS and DICTIONARIES are listed in input_identities.json. References are listed in reference_identities.json. Do not substitute latest sources or loosen hashes. Existing workspaces are not overwritten. The original full raw-source extraction entry is outside this export.
+The old protected manuscript served only as a no-write guard. The exported runtime instead hashes its supplied execute_guarded.py outside the run workspace and reports export_code_guard_sha256_unchanged. No manuscript or ledger content is now needed at runtime. The guarded executor still confines child writes to the new workspace. This is software integrity, not manuscript approval or biological validation.
 
-The required resource contents, result tables, raw source-row checkpoints and dictionaries are not uploaded with this code. One legacy resource is a protected manuscript copy used only for a no-write invariant, not numerical generation. That copy and internal reviewer ledgers are intentionally withheld. This creates a real public-reproduction access gap. A later removal/replacement of a non-scientific guard would need its own documented change validation; it is not silently performed here.
+Only that final guard expression and its two reporting-key literals change in source_deletion.py; inverse AST contracts preserve all numerical computation. Seven other algorithm files and execute_guarded.py retain their bytes. See CODE_ADAPTATION_CONTRACT.json and NON_NUMERICAL_GUARD_CHANGE.json.
 
-The earlier same-host staged run compared nine core files (116,505 parsed rows across overlapping units) and 23 numerical source tables exactly. Three documentary/manual original tables and all19 later SX tables were not regenerated then. That earlier computation is not a new end-to-end execution of this relocated-resource driver, a second-machine test or biological validation. Prior failures, negatives, unknowns and stopped families remain applicable. No open licence, public release or DOI is assigned.
+## Verification scope
+
+Targeted validation passed: one affected complete descriptive step reproduced all seven table outputs byte for byte; all 30 summary fields matched after excluding only timestamps, protocol relocation hash and the renamed guard status. The actual driver ledger filter retained all four scientific/configuration input objects and every other protocol field. Software fixtures passed the valid guard, tampered guard and actual outside-workspace write-denial checks. These are same-input software checks, not independent biological validation. A new complete driver run and a second-host run have not been performed. Prior same-host staged replay matched nine core JSONL files (116,505 heterogeneous overlapping rows) and 23 numerical source tables. Three original documentary/manual tables and all 19 later SX tables were not regenerated in that replay.
+
+No source records, dictionary contents, result-table contents, protected manuscript or internal ledger contents are included. Private repository status does not resolve reuse terms or provide public data access. There is no Release, DOI or open licence in this preparation state.
+
+Run the small, data-free software guard checks in a new directory:
+
+```
+python analysis/verify_delivery_guards.py --test-dir NEW_FIXTURE_DIRECTORY
+```
