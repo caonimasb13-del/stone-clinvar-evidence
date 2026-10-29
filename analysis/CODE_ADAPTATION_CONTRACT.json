@@ -159,5 +159,15 @@
   ],
   "execute_guarded_bytes_unchanged": true,
   "affected_descriptive_step_targeted_validation": "PASS_ALL7_TABLE_BYTES_AND_30_SUMMARY_FIELDS",
-  "new_driver_full_pipeline_reexecuted": false
+  "new_driver_full_pipeline_reexecuted": true,
+  "driver_execution_scope": "One continuous unchanged exported fixed-checkpoint entry on the same Windows host; not raw-source extraction or full article pipeline.",
+  "subsequent_local_packaged_checkpoint_validation": {
+    "status": "PASS",
+    "code_commit": "4621b1b084cb3ac8bf697ff8415203822f358a6c",
+    "archive_sha256": "71e26182219a3a6395b491aa3b95ae4ec32a4ddd0f440f9c956e67a9ce337fb4",
+    "nine_core_semantic_outputs_equal": true,
+    "all23_generated_tables_equal": true,
+    "second_host": false,
+    "public_input_delivery": false
+  }
 }
