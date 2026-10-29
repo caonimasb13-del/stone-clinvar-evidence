@@ -59,13 +59,20 @@
     "source_name": "C171_strengthening2_all35_source_influence_20261006.py",
     "original_sha256": "7c8e87be63312d5add8bac5b148bef9ca0e0eb38a5f2af2e82f17894548b9ea5",
     "adapted_file": "algorithms/source_deletion.py",
-    "adapted_sha256": "a829fca9b1c3abd20857bc800ef423b8e0f23e8f7359f011b6054a41b02ea10b",
+    "adapted_sha256": "a16560913120c0ab8f4f631a4f00f798b5dbba2be04cb3289bfa7432f1fb8a34",
     "allowed_path_assignments": [
       "P",
       "B"
     ],
     "removed_project_progress_line": [],
-    "all_other_AST_computation_contract_equal": true
+    "all_other_AST_computation_contract_equal": true,
+    "previous_export_sha256": "a829fca9b1c3abd20857bc800ef423b8e0f23e8f7359f011b6054a41b02ea10b",
+    "additional_non_numerical_guard_change": {
+      "previous_field": "original_manuscript_sha256_unchanged",
+      "current_field": "export_code_guard_sha256_unchanged",
+      "effect": "Only integrity-guard target and truthful guard label changed; all table computations and numerical summary fields unchanged by inverse AST contract.",
+      "relative_contract": "NON_NUMERICAL_GUARD_CHANGE.json"
+    }
   },
   {
     "code_id": "PRIOR_RAW_REPLAY_TEMPLATE",
