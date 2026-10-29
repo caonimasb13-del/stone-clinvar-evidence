@@ -8,7 +8,7 @@
   "all_other_numerical_AST_unchanged": true,
   "seven_other_algorithm_files_and_executor_bytes_unchanged": true,
   "expected_complete_table_family": 7,
-  "full_driver_run_tested": false,
+  "full_driver_run_tested": true,
   "second_host_tested": false,
   "public_input_delivery_or_reuse_rights_cleared": false,
   "all_seven_tables_bytes_equal": true,
@@ -54,5 +54,14 @@
       "bytes": 723,
       "sha256": "898408736ae5c8d735ba0647430aa07a4494a25b9342fd99b786b21369fa55d0"
     }
-  ]
+  ],
+  "subsequent_local_packaged_checkpoint_validation": {
+    "status": "PASS",
+    "code_commit": "4621b1b084cb3ac8bf697ff8415203822f358a6c",
+    "archive_sha256": "71e26182219a3a6395b491aa3b95ae4ec32a4ddd0f440f9c956e67a9ce337fb4",
+    "nine_core_semantic_outputs_equal": true,
+    "all23_generated_tables_equal": true,
+    "second_host": false,
+    "public_input_delivery": false
+  }
 }
