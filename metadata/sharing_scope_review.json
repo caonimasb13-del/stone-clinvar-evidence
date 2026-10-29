@@ -1,5 +1,5 @@
 {
-  "status": "SOURCE_SPECIFIC_RIGHTS_REVIEW_NO_PUBLIC_RELEASE_OR_NEW_LICENCE",
+  "status": "AUTHOR_SCOPE_CONFIRMATION_AND_EXPLICIT_PROJECT_LICENCE_DECISION_RECORDED_PRIVATE_ONLY",
   "review_date": "2026-10-29",
   "G2P": {
     "provider_data_licence": "CC-BY-4.0",
@@ -21,14 +21,16 @@
     "retain_attribution_and_access_date": true
   },
   "PanelApp": {
-    "state": "OUTPUT_LICENSING_APPLICABILITY_NEEDS_CONFIRMATION",
+    "state": "AUTHOR_REPORTS_NO_SEPARATE_ADDITIONAL_PERMISSION_REQUIRED_FOR_STATED_RESEARCH_USE",
     "source": "https://prod-media-panelapp.genomicsengland.co.uk/media/files/GEL_-_PanelApp_Terms_of_Use_December_2019.pdf",
     "relevant_clause": "4.2 plus1,5–7",
     "actual_dependency": "Externally fixed35gene panel149 signed-off6.2",
-    "interpretation_not_legal_ruling": "The source addresses licensing/assignment of broad Outputs. This review does not decide that research publication is prohibited or that permission has been obtained."
+    "interpretation_not_legal_ruling": "The source addresses licensing/assignment of broad Outputs. This review does not decide that research publication is prohibited or that permission has been obtained.",
+    "previous_review_state": "OUTPUT_LICENSING_APPLICABILITY_NEEDS_CONFIRMATION",
+    "author_confirmation": "metadata/author_permission_scope_confirmation.json"
   },
   "HPO": {
-    "state": "LEGACY_CONDITIONAL_PROJECT_GRANT_FOUND_EXACT_PINNED_COMPONENT_LINKAGE_UNRESOLVED",
+    "state": "AUTHOR_CONFIRMS_EXISTING_FIXED_COMPONENT_USE_NO_ADDITIONAL_PERMISSION_SOURCE_NOTICES_RETAINED",
     "legacy_project_policy": "https://human-phenotype-ontology.github.io/license.html",
     "pinned_tags": [
       "v2025-09-01",
@@ -41,7 +43,9 @@
       "version/date display",
       "unchanged distributed ontology/file relationships"
     ],
-    "no_blanket_CC0_or_project_relicensing": true
+    "no_blanket_CC0_or_project_relicensing": true,
+    "previous_review_state": "LEGACY_CONDITIONAL_PROJECT_GRANT_FOUND_EXACT_PINNED_COMPONENT_LINKAGE_UNRESOLVED",
+    "author_confirmation": "metadata/author_permission_scope_confirmation.json"
   },
   "NCBI": {
     "source": "https://www.ncbi.nlm.nih.gov/home/about/policies/",
@@ -58,8 +62,10 @@
     "licence_field_required_and_default_not_an_upstream_grant": true
   },
   "public_repository_or_data_deposit_created": false,
-  "project_licence_assigned": false,
+  "project_licence_assigned": true,
   "contact_or_permission_obtained": false,
   "availability_status_document": "docs/data_code_availability_current_status.txt",
-  "historical_local_paths": "Research provenance literals do not establish patient identifiers or actual path access. Frozen inputs remain unchanged; do not treat this statement as comprehensive deidentification."
+  "historical_local_paths": "Research provenance literals do not establish patient identifiers or actual path access. Frozen inputs remain unchanged; do not treat this statement as comprehensive deidentification.",
+  "author_confirmation_recorded": true,
+  "project_licence_decision": "metadata/project_licence_decision.json"
 }
