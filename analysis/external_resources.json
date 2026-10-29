@@ -226,14 +226,6 @@
       "special_role": "Required external configuration, checkpoint receipt or comparison table"
     },
     {
-      "path": "frozen/protected_manuscript.md",
-      "bytes": 45783,
-      "sha256": "11cb8d9f67ae08219cc4466fa762ea108b3e44b81e318b0383ddfef2aa52d6db",
-      "included_in_GitHub_export": false,
-      "access_status": "LOCAL_FROZEN_COPY_EXISTS_PUBLIC_INPUT_DELIVERY_NOT_ESTABLISHED",
-      "special_role": "Legacy manuscript no-write invariant only; not a biological or numerical generation input; protected copy intentionally excluded"
-    },
-    {
       "path": "frozen/selected_extraction_receipt_verified_old_replay.json",
       "bytes": 7622,
       "sha256": "ed4aaea57beb5e293d1298a219b6fff425986c8d1de2e0c8cf300fa56fe98602",
@@ -253,22 +245,6 @@
       "path": "frozen/transparency_protocol_original.json",
       "bytes": 6593,
       "sha256": "7e0e558f9abf2ef24bb37305252f3b1320258024d909eadd6f04e270680a39c0",
-      "included_in_GitHub_export": false,
-      "access_status": "LOCAL_FROZEN_COPY_EXISTS_PUBLIC_INPUT_DELIVERY_NOT_ESTABLISHED",
-      "special_role": "Required external configuration, checkpoint receipt or comparison table"
-    },
-    {
-      "path": "full_raw_core/frozen/R2_ledger.json",
-      "bytes": 16956,
-      "sha256": "13904aa8f742a91aa0e692afc0a3e317338cc2a32ca135fbbd4add21a89e20aa",
-      "included_in_GitHub_export": false,
-      "access_status": "LOCAL_FROZEN_COPY_EXISTS_PUBLIC_INPUT_DELIVERY_NOT_ESTABLISHED",
-      "special_role": "Required external configuration, checkpoint receipt or comparison table"
-    },
-    {
-      "path": "full_raw_core/frozen/R3_ledger.json",
-      "bytes": 19192,
-      "sha256": "e1ceb56ea5219e90ca4987c5518f1913ba8d9f2df368716ff6bd7855a0e88d6a",
       "included_in_GitHub_export": false,
       "access_status": "LOCAL_FROZEN_COPY_EXISTS_PUBLIC_INPUT_DELIVERY_NOT_ESTABLISHED",
       "special_role": "Required external configuration, checkpoint receipt or comparison table"
@@ -315,5 +291,23 @@
     }
   ],
   "private_local_preflight_can_use_existing_module_as_resources_dir": true,
-  "public_self_contained_reproduction": false
+  "public_self_contained_reproduction": false,
+  "removed_non_numerical_runtime_dependencies": [
+    {
+      "path": "frozen/protected_manuscript.md",
+      "sha256": "11cb8d9f67ae08219cc4466fa762ea108b3e44b81e318b0383ddfef2aa52d6db",
+      "reason": "Retained historical local evidence; not required by exported numerical generation or code guard."
+    },
+    {
+      "path": "full_raw_core/frozen/R2_ledger.json",
+      "sha256": "13904aa8f742a91aa0e692afc0a3e317338cc2a32ca135fbbd4add21a89e20aa",
+      "reason": "Retained historical local evidence; not required by exported numerical generation or code guard."
+    },
+    {
+      "path": "full_raw_core/frozen/R3_ledger.json",
+      "sha256": "e1ceb56ea5219e90ca4987c5518f1913ba8d9f2df368716ff6bd7855a0e88d6a",
+      "reason": "Retained historical local evidence; not required by exported numerical generation or code guard."
+    }
+  ],
+  "public_input_access_gap_includes_protected_manuscript_or_ledger": false
 }
