@@ -127,5 +127,5 @@
   "checkpoint_total_bytes": 88937991,
   "dictionary_total_bytes": 56544829,
   "reference_outputs": "The eight prior core JSONL results and the corrected-scope ninth file are additionally required for exact comparisons. They are not generation inputs and are not included in this initialization candidate.",
-  "scientific_algorithms": "The scientific implementation is now in analysis/algorithms. Required external resources and input data are not included; see analysis/external_resources.json and analysis/README.md."
+  "scientific_algorithms": "Scientific implementation is in analysis/algorithms; one declared integrity-guard-only change removes manuscript dependence. Exact external scientific inputs and configurations remain required; see analysis/external_resources.json."
 }
