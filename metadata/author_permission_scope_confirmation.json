@@ -1,0 +1,16 @@
+{
+  "status": "AUTHOR_CONFIRMED_NO_SEPARATE_ADDITIONAL_PERMISSION_REQUIRED_FOR_STATED_RESEARCH_USE",
+  "confirmed_date": "2026-10-29",
+  "basis": "Direct user/author confirmation in the project conversation; not an independently obtained institutional opinion or new rights-holder grant.",
+  "scope": "Existing research use of the fixed PanelApp149v6.2 and HPO versions/annotation files already used in this study.",
+  "HPO_fixed_versions": [
+    "v2025-09-01",
+    "v2026-09-01"
+  ],
+  "no_latest_source_replacement": true,
+  "original_source_credits_versions_and_file_specific_notices_retained": true,
+  "does_not_assign_project_software_or_dataset_licence": true,
+  "does_not_authorize_private_to_public_visibility_or_data_deposit": true,
+  "past_source_review_records_retained_as_history": true,
+  "subsequent_separate_project_licence_decision": "metadata/project_licence_decision.json"
+}
