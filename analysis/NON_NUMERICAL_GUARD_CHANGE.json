@@ -1,0 +1,58 @@
+{
+  "status": "PASS_FROZEN_TARGETED_VALIDATION_ONLY",
+  "question": "Can the numerical entry run without a protected manuscript or internal reviewer ledgers while all numerical generation, frozen inputs, candidates, missingness, and descriptive output tables remain unchanged?",
+  "changes": [
+    "Two ledger hash-only dependencies omitted",
+    "Manuscript guard replaced by supplied code integrity guard with truthful label"
+  ],
+  "all_other_numerical_AST_unchanged": true,
+  "seven_other_algorithm_files_and_executor_bytes_unchanged": true,
+  "expected_complete_table_family": 7,
+  "full_driver_run_tested": false,
+  "second_host_tested": false,
+  "public_input_delivery_or_reuse_rights_cleared": false,
+  "all_seven_tables_bytes_equal": true,
+  "numerical_summary_fields_equal": 30,
+  "ledger_hash_input_count_before": 6,
+  "ledger_hash_input_count_after": 4,
+  "guard_fixture_result": "PASS_POSITIVE_TAMPER_NEGATIVE_AND_OUTSIDE_WRITE_DENIAL",
+  "one_affected_descriptive_step_executed": true,
+  "validation_utc": "2026-10-29T08:31:52.011199+00:00",
+  "tables": [
+    {
+      "file": "01_all35_gene_landscape_corrected_scope_and_separate_units.tsv",
+      "bytes": 3500,
+      "sha256": "d989ecf89734f5c3736dae8938df349bc808201be1343297a711308a2a9e29fe"
+    },
+    {
+      "file": "02_all265_historical_submitter_census.tsv",
+      "bytes": 26684,
+      "sha256": "8a9637628081bf54ba772a33ce579536b059cbc9a744466984cd8ff7f8ddffd2"
+    },
+    {
+      "file": "03_all35_leave_one_gene_descriptors.tsv",
+      "bytes": 9867,
+      "sha256": "6dd2e067be8b1f187b8b7efa05ba552e1461171a113d2c62521fafcd56b1aa2b"
+    },
+    {
+      "file": "04_all265_leave_one_historical_submitter_descriptors.tsv",
+      "bytes": 27276,
+      "sha256": "f36194e32a095e7445cbc01b57383a2e7e0ebcdaf9562831c107470f2b65df88"
+    },
+    {
+      "file": "05_all96_current_source_dependency_deletions.tsv",
+      "bytes": 17789,
+      "sha256": "4339df753c7502d56207cc88efb53931280ff73fd9f95eb0bfd25698e5946634"
+    },
+    {
+      "file": "06_all1800_gene_source_direction_cells_including_zeros.tsv",
+      "bytes": 164124,
+      "sha256": "77cf28d67bb3c1ac93998772f4c0ac1d6891d4309616955d001983601a898657"
+    },
+    {
+      "file": "07_fixed_coverage_based_figure_labels.tsv",
+      "bytes": 723,
+      "sha256": "898408736ae5c8d735ba0647430aa07a4494a25b9342fd99b786b21369fa55d0"
+    }
+  ]
+}
