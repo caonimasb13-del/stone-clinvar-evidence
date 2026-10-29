@@ -824,5 +824,6 @@
     "external_download_URL": null,
     "public_licence_cleared": false
   },
-  "remaining": "Exact public data delivery, upstream component terms and final public archive/identifier remain unresolved. The local pack contains frozen historic-path strings and must not be uploaded without its own cleared scope."
+  "remaining": "Exact public file delivery, final public archive/identifiers and explicit public-release authorization remain. Project MIT/CC-BY4.0 scopes are assigned separately; provider attribution/version/notices remain.",
+  "author_scope_confirmation": "metadata/author_permission_scope_confirmation.json"
 }
