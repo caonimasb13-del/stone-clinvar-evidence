@@ -1,0 +1,87 @@
+[
+  {
+    "code_id": "C109",
+    "source_name": "C109_stage39_compute_frozen_record_endpoints.py",
+    "original_sha256": "f0a227d9f040d2ca37180a8d101556931d5a9a39cc2ec551e465acec345c295a",
+    "adapted_file": "algorithms/census.py",
+    "adapted_sha256": "b39d23e2ec0c76643dd455edaa75f0d553fb5c0df8aebdace77b24e946d78855",
+    "allowed_path_assignments": [],
+    "removed_project_progress_line": [
+      254
+    ],
+    "all_other_AST_computation_contract_equal": true
+  },
+  {
+    "code_id": "C115",
+    "source_name": "C115_stage42_compute_all_source_supported_scope_repairs.py",
+    "original_sha256": "d5e4c9ab060286d414131d2f7ab877aae70a5cc8e88ad3bc59cab3af29162b1d",
+    "adapted_file": "algorithms/scope_repair.py",
+    "adapted_sha256": "d5e4c9ab060286d414131d2f7ab877aae70a5cc8e88ad3bc59cab3af29162b1d",
+    "allowed_path_assignments": [],
+    "removed_project_progress_line": [],
+    "all_other_AST_computation_contract_equal": true
+  },
+  {
+    "code_id": "C116",
+    "source_name": "C116_stage42_independent_original_dictionary_repair_QA.py",
+    "original_sha256": "449e36d7561866140e6d12309e4421a00892eb78b1574d4235b0e10600e8c9ea",
+    "adapted_file": "algorithms/scope_repair_QA.py",
+    "adapted_sha256": "449e36d7561866140e6d12309e4421a00892eb78b1574d4235b0e10600e8c9ea",
+    "allowed_path_assignments": [],
+    "removed_project_progress_line": [],
+    "all_other_AST_computation_contract_equal": true
+  },
+  {
+    "code_id": "C148",
+    "source_name": "C148_stage43_export_complete_record_interpretation_use_task.py",
+    "original_sha256": "48cab75c6cca4f3c5217af18d7304bb3cb7c3c28d417fd5d506830625c9ed2b8",
+    "adapted_file": "algorithms/source_chains.py",
+    "adapted_sha256": "96f0ec7c3823077df63315e114849d4f413ecd1252d4d794fbc396cc6b3f6b59",
+    "allowed_path_assignments": [],
+    "removed_project_progress_line": [],
+    "all_other_AST_computation_contract_equal": true
+  },
+  {
+    "code_id": "C170",
+    "source_name": "C170_strengthening1_current_contrast_transparency_20261006.py",
+    "original_sha256": "c80ea218160798c9a8321fb7dd623c18e885bfb6dfd85626de196e566ebf79da",
+    "adapted_file": "algorithms/transparency.py",
+    "adapted_sha256": "df5318fe22f354efaf31fec36ceaa703b297cca20b08ed8380744ac81cd0e64d",
+    "allowed_path_assignments": [
+      "P",
+      "source"
+    ],
+    "removed_project_progress_line": [],
+    "all_other_AST_computation_contract_equal": true
+  },
+  {
+    "code_id": "C171",
+    "source_name": "C171_strengthening2_all35_source_influence_20261006.py",
+    "original_sha256": "7c8e87be63312d5add8bac5b148bef9ca0e0eb38a5f2af2e82f17894548b9ea5",
+    "adapted_file": "algorithms/source_deletion.py",
+    "adapted_sha256": "a829fca9b1c3abd20857bc800ef423b8e0f23e8f7359f011b6054a41b02ea10b",
+    "allowed_path_assignments": [
+      "P",
+      "B"
+    ],
+    "removed_project_progress_line": [],
+    "all_other_AST_computation_contract_equal": true
+  },
+  {
+    "code_id": "PRIOR_RAW_REPLAY_TEMPLATE",
+    "source_name": "stage39_independent_current_contrast_and_ID_sensitivity.py",
+    "original_sha256": "a1d8b36b8ddea6198882fa028f387442bc3d38b65512957727c10676f2d38d7c",
+    "adapted_file": "algorithms/current_ID_sensitivity_QA.py",
+    "adapted_sha256": "a1d8b36b8ddea6198882fa028f387442bc3d38b65512957727c10676f2d38d7c",
+    "all_other_AST_computation_contract_equal": true,
+    "allowed_path_assignments": []
+  },
+  {
+    "code_id": "C152",
+    "source_name": "C152_stage68_assemble_frozen_existing_resource_packet_and_presentation_tables.py",
+    "original_sha256": "9123852bca0062c281af16391f6892e2f91eec885c73d570aff962f794b543a7",
+    "adapted_file": "algorithms/presentation_tables_verbatim.pyfrag",
+    "adapted_sha256": "fed4ac07eafb7cdbb7ee36f3ef0e9256b54f069a9214696d3666390351220a40",
+    "scope": "Verbatim table-generating body; wrapper supplies regenerated source objects. No publication, prose or project-progress code executed."
+  }
+]
