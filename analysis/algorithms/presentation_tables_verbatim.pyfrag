@@ -1,0 +1,45 @@
+p = original['primary']
+c = original['current_dated_assertion_contrast']
+scopes = repair['B_corrected_source_supported_counts']
+assert p['eligible_continuous_SCVs'] == 30938 and p['major_update_events'] == 36
+assert sum(p['all6_directed_transitions'].values()) == 36
+assert sum(c['all_statuses'].values()) == 21371
+assert sum(scopes.values()) == 4078
+assert sum(task['all_task_strata'].values()) == 1141
+assert task['cases_with_observed_primary_update'] == 19
+tables = []
+tables.append(table('T1_distinct_tasks_units_denominators_and_scope.tsv', [
+    {'task':'Observed historical major-tier update','unit':'SCV base','eligible_units':30938,'positive_units':35,'event_units':36,'time_basis':'13 monthly snapshots, 2025-10-02 to 2026-10-01','inference':'Version-increasing, within-submission update under the complete eligibility rules'},
+    {'task':'Current dated assertion contrast','unit':'VariationID','eligible_units':21371,'positive_units':1141,'event_units':'not an event count','time_basis':'Dates on current assertions at the latest snapshot','inference':'Across-current-record classification difference; endpoints are different SCVs'},
+    {'task':'Current aggregated P/LP condition scope','unit':'VariationID','eligible_units':4078,'positive_units':'all categories retained','event_units':'6831 contributing P/LP records','time_basis':'Latest snapshot with pinned current dictionaries','inference':'Disease-condition annotation scope, not allele function or patient diagnosis'},
+]))
+tables.append(table('T2_all6_strict_update_directions_including_zeros.tsv', [{'direction':key,'update_events':value} for key,value in p['all6_directed_transitions'].items()]))
+tables.append(table('T3_ALL_current_dated_contrast_statuses.tsv', [{'status':key,'variants':value} for key,value in c['all_statuses'].items()]))
+cells = []
+for identity in ('ALL_SAME','ALL_DIFFERENT','UNRESOLVED_COMPONENT'):
+    for observed in ('no','yes'):
+        key = identity + '|observed_primary_update_' + observed
+        cells.append({'complete_C_ID_identity':identity,'observed_primary_update_in_frozen_window':observed,'variants':task['all_task_strata'].get(key,0),'zero_unobserved_cell_explicit':key not in task['all_task_strata']})
+tables.append(table('T4_complete_identifier_scope_ALL6_task_cells_with_empty_cell.tsv', cells))
+tables.append(table('T5_raw_condition_string_identity_separate_definition.tsv', [{'raw_condition_pair_identity':key,'variants':value} for key,value in c['different_tier_condition_identity_categories'].items()]))
+tables.append(table('T6_ALL_original_A_corrected_B_and_B_IDonly_condition_categories.tsv', [
+    {'category':key,'original':repair['original_counts'][key],'A_remove_panel_shortcut':repair['A_remove_sole_panel_shortcut_counts'][key],'B_corrected':value,'B_identifiers_only':repair['B_identifiers_only_counts'][key]} for key,value in scopes.items()
+]))
+tables.append(table('T7_ALL_fixed_sensitivity_values_correct_units.tsv', [{'endpoint':key,'value':value,'note':'Units depend on endpoint: eligible SCV bases, updated SCV bases, or interval/event counts; see original protocol'} for key,value in original['fixed_sensitivities'].items()]))
+example_rows = []
+endpoint_rows = []
+event_rows = []
+for key, case in cases.items():
+    contrast = case['original_current_contrast']
+    example_rows.append({'task_stratum':key,'VariationID':case['VariationID'],'gene':case['gene'],'earliest_evaluation_date':contrast['earliest_date'],'latest_evaluation_date':contrast['latest_date'],'earliest_SCVs':json.dumps(contrast['earliest_SCVs']),'latest_SCVs':json.dumps(contrast['latest_SCVs']),'raw_condition_pair_identity':contrast['raw_condition_pair_identity'],'observed_strict_update_events':len(case['observed_primary_major_update_events']),'permitted_label':case['permitted_label'],'same_SCV_update_from_current_dates_alone_supported':case['same_SCV_update_from_these_current_endpoint_dates_alone_supported'],'lifetime_no_update_supported':case['absence_of_lifetime_update_supported'],'clinical_error_or_harm_supported':case['clinical_error_or_harm_supported']})
+    for side in ('earliest','latest'):
+        for row in case[side + '_current_assertion_source_records']:
+            endpoint_rows.append({'case_VariationID':case['VariationID'],'case_gene':case['gene'],'task_stratum':key,'endpoint_side':side,**row})
+    for event in case['observed_primary_major_update_events']:
+        event_rows.append({'case_VariationID':case['VariationID'],'task_stratum':key,**event})
+tables.append(table('T8_ALL5_original_deterministic_examples_unchanged_selection.tsv',example_rows))
+tables.append(table('T9_ALL5_examples_ALL_current_endpoint_source_rows_no_filter.tsv',endpoint_rows))
+if event_rows:
+    tables.append(table('T10_ALL5_examples_ALL_observed_strict_update_events.tsv',event_rows))
+assert all(row['same_SCV_update_from_current_dates_alone_supported'] is False for row in example_rows)
+assert all(row['clinical_error_or_harm_supported'] is False and row['lifetime_no_update_supported'] is False for row in example_rows)
