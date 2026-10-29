@@ -27,3 +27,7 @@ OpenAI Codex assisted substantively with literature assessment, protocols, code,
 ## Citation
 
 CITATION.cff records the confirmed project author order. A software release identifier, release date, DOI and final licence will be added only after the corresponding facts exist. This preparation repository does not claim that every named project author personally wrote software.
+
+## Current source-specific sharing review
+
+The explicit G2P dataset CC BY4.0 statement has been located in saved official deployed code and a pinned current official source, correcting the previous unresolved-data-licence label. ClinGen curated content has its separate CC0 scope. PanelApp output-licensing applicability and HPO exact-version component linkage remain for confirmation. See metadata/sharing_scope_review.json and docs/data_code_availability_current_status.txt. These documents record current facts; they do not create public access, a project licence, a deposit or a DOI.
