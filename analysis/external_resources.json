@@ -1,0 +1,319 @@
+{
+  "scope": "Required runtime resource identities only, not their contents",
+  "resources": [
+    {
+      "path": "expected_original26/Aux_all_raw_status_values.tsv",
+      "bytes": 1174,
+      "sha256": "ee899f312c5d5917eefe7ae00adb00a628faeafaf66b75e0b7010f8dabf19225",
+      "included_in_GitHub_export": false,
+      "access_status": "LOCAL_FROZEN_COPY_EXISTS_PUBLIC_INPUT_DELIVERY_NOT_ESTABLISHED",
+      "special_role": "Required external configuration, checkpoint receipt or comparison table"
+    },
+    {
+      "path": "expected_original26/Aux_fixed_coverage_figure_labels.tsv",
+      "bytes": 723,
+      "sha256": "898408736ae5c8d735ba0647430aa07a4494a25b9342fd99b786b21369fa55d0",
+      "included_in_GitHub_export": false,
+      "access_status": "LOCAL_FROZEN_COPY_EXISTS_PUBLIC_INPUT_DELIVERY_NOT_ESTABLISHED",
+      "special_role": "Required external configuration, checkpoint receipt or comparison table"
+    },
+    {
+      "path": "expected_original26/Aux_review_by_contribution.tsv",
+      "bytes": 2086,
+      "sha256": "24a70cd56fa347cea8fffa690d51b1d348f8aea7c708ba685179f9d480d273b4",
+      "included_in_GitHub_export": false,
+      "access_status": "LOCAL_FROZEN_COPY_EXISTS_PUBLIC_INPUT_DELIVERY_NOT_ESTABLISHED",
+      "special_role": "Required external configuration, checkpoint receipt or comparison table"
+    },
+    {
+      "path": "expected_original26/Figure4_fixed38_source_data.csv",
+      "bytes": 5477,
+      "sha256": "0d6400312bc6ed029afbe983b6b07622c4c69539663bcd928b7447f5a220651b",
+      "included_in_GitHub_export": false,
+      "access_status": "LOCAL_FROZEN_COPY_EXISTS_PUBLIC_INPUT_DELIVERY_NOT_ESTABLISHED",
+      "special_role": "Required external configuration, checkpoint receipt or comparison table"
+    },
+    {
+      "path": "expected_original26/ST10_all1800_direction_cells.tsv",
+      "bytes": 164124,
+      "sha256": "77cf28d67bb3c1ac93998772f4c0ac1d6891d4309616955d001983601a898657",
+      "included_in_GitHub_export": false,
+      "access_status": "LOCAL_FROZEN_COPY_EXISTS_PUBLIC_INPUT_DELIVERY_NOT_ESTABLISHED",
+      "special_role": "Required external configuration, checkpoint receipt or comparison table"
+    },
+    {
+      "path": "expected_original26/ST1_all1141_variant_transparency.tsv",
+      "bytes": 541332,
+      "sha256": "ec3448944c6ff8364768625349c8ee6f53754bf3fd81373726d3cf3aab8e29ac",
+      "included_in_GitHub_export": false,
+      "access_status": "LOCAL_FROZEN_COPY_EXISTS_PUBLIC_INPUT_DELIVERY_NOT_ESTABLISHED",
+      "special_role": "Required external configuration, checkpoint receipt or comparison table"
+    },
+    {
+      "path": "expected_original26/ST2_all2320_endpoint_source_rows.tsv",
+      "bytes": 1253182,
+      "sha256": "bb226c03293584c7c654d2d80a4ee70e6fa2d29cd8a6c5bbbb460223bd38d487",
+      "included_in_GitHub_export": false,
+      "access_status": "LOCAL_FROZEN_COPY_EXISTS_PUBLIC_INPUT_DELIVERY_NOT_ESTABLISHED",
+      "special_role": "Required external configuration, checkpoint receipt or comparison table"
+    },
+    {
+      "path": "expected_original26/ST3_all4704_fixed_cross_cells.tsv",
+      "bytes": 259324,
+      "sha256": "71f0a215c5eae9b6fb5af0b70c0dccd0b879c075f9d43b3a103f31b8600ea3e2",
+      "included_in_GitHub_export": false,
+      "access_status": "LOCAL_FROZEN_COPY_EXISTS_PUBLIC_INPUT_DELIVERY_NOT_ESTABLISHED",
+      "special_role": "Required external configuration, checkpoint receipt or comparison table"
+    },
+    {
+      "path": "expected_original26/ST4_all_endpoint_marginals.tsv",
+      "bytes": 874,
+      "sha256": "8da8bdcfaaf10878cfb21324a60d906d08a48fc8b1766712c41bee66cbd07d69",
+      "included_in_GitHub_export": false,
+      "access_status": "LOCAL_FROZEN_COPY_EXISTS_PUBLIC_INPUT_DELIVERY_NOT_ESTABLISHED",
+      "special_role": "Required external configuration, checkpoint receipt or comparison table"
+    },
+    {
+      "path": "expected_original26/ST5_all35_gene_landscape.tsv",
+      "bytes": 3500,
+      "sha256": "d989ecf89734f5c3736dae8938df349bc808201be1343297a711308a2a9e29fe",
+      "included_in_GitHub_export": false,
+      "access_status": "LOCAL_FROZEN_COPY_EXISTS_PUBLIC_INPUT_DELIVERY_NOT_ESTABLISHED",
+      "special_role": "Required external configuration, checkpoint receipt or comparison table"
+    },
+    {
+      "path": "expected_original26/ST6_all265_historical_sources.tsv",
+      "bytes": 26684,
+      "sha256": "8a9637628081bf54ba772a33ce579536b059cbc9a744466984cd8ff7f8ddffd2",
+      "included_in_GitHub_export": false,
+      "access_status": "LOCAL_FROZEN_COPY_EXISTS_PUBLIC_INPUT_DELIVERY_NOT_ESTABLISHED",
+      "special_role": "Required external configuration, checkpoint receipt or comparison table"
+    },
+    {
+      "path": "expected_original26/ST7_all35_gene_omissions.tsv",
+      "bytes": 9867,
+      "sha256": "6dd2e067be8b1f187b8b7efa05ba552e1461171a113d2c62521fafcd56b1aa2b",
+      "included_in_GitHub_export": false,
+      "access_status": "LOCAL_FROZEN_COPY_EXISTS_PUBLIC_INPUT_DELIVERY_NOT_ESTABLISHED",
+      "special_role": "Required external configuration, checkpoint receipt or comparison table"
+    },
+    {
+      "path": "expected_original26/ST8_all265_historical_source_omissions.tsv",
+      "bytes": 27276,
+      "sha256": "f36194e32a095e7445cbc01b57383a2e7e0ebcdaf9562831c107470f2b65df88",
+      "included_in_GitHub_export": false,
+      "access_status": "LOCAL_FROZEN_COPY_EXISTS_PUBLIC_INPUT_DELIVERY_NOT_ESTABLISHED",
+      "special_role": "Required external configuration, checkpoint receipt or comparison table"
+    },
+    {
+      "path": "expected_original26/ST9_all96_current_source_dependencies.tsv",
+      "bytes": 17789,
+      "sha256": "4339df753c7502d56207cc88efb53931280ff73fd9f95eb0bfd25698e5946634",
+      "included_in_GitHub_export": false,
+      "access_status": "LOCAL_FROZEN_COPY_EXISTS_PUBLIC_INPUT_DELIVERY_NOT_ESTABLISHED",
+      "special_role": "Required external configuration, checkpoint receipt or comparison table"
+    },
+    {
+      "path": "expected_original26/T10_ALL5_examples_ALL_observed_strict_update_events.tsv",
+      "bytes": 1037,
+      "sha256": "98cd380ee55d2e151917b5a06db2e0da74fe0e2ae5b90eebb957fe446b0a530f",
+      "included_in_GitHub_export": false,
+      "access_status": "LOCAL_FROZEN_COPY_EXISTS_PUBLIC_INPUT_DELIVERY_NOT_ESTABLISHED",
+      "special_role": "Required external configuration, checkpoint receipt or comparison table"
+    },
+    {
+      "path": "expected_original26/T1_distinct_tasks_units_denominators_and_scope.tsv",
+      "bytes": 703,
+      "sha256": "e99f78395bacd213341db26331993ba74ec93f1d905fd2d2c546ef1eb1403336",
+      "included_in_GitHub_export": false,
+      "access_status": "LOCAL_FROZEN_COPY_EXISTS_PUBLIC_INPUT_DELIVERY_NOT_ESTABLISHED",
+      "special_role": "Required external configuration, checkpoint receipt or comparison table"
+    },
+    {
+      "path": "expected_original26/T2_all6_strict_update_directions_including_zeros.tsv",
+      "bytes": 92,
+      "sha256": "c2211248839f0622b44ac2c603455a5db84ee3e8120c15ccab74656e95b45c84",
+      "included_in_GitHub_export": false,
+      "access_status": "LOCAL_FROZEN_COPY_EXISTS_PUBLIC_INPUT_DELIVERY_NOT_ESTABLISHED",
+      "special_role": "Required external configuration, checkpoint receipt or comparison table"
+    },
+    {
+      "path": "expected_original26/T3_ALL_current_dated_contrast_statuses.tsv",
+      "bytes": 195,
+      "sha256": "1c272b99faa5d4f71c6e913a4c43b12521a1bd4c6e7d1c5a80b32f0e9c8395b0",
+      "included_in_GitHub_export": false,
+      "access_status": "LOCAL_FROZEN_COPY_EXISTS_PUBLIC_INPUT_DELIVERY_NOT_ESTABLISHED",
+      "special_role": "Required external configuration, checkpoint receipt or comparison table"
+    },
+    {
+      "path": "expected_original26/T4_complete_identifier_scope_ALL6_task_cells_with_empty_cell.tsv",
+      "bytes": 266,
+      "sha256": "bca98f7eeac3863791ab9e0012381e7b853025dc4ae33c21069baf7380ef7015",
+      "included_in_GitHub_export": false,
+      "access_status": "LOCAL_FROZEN_COPY_EXISTS_PUBLIC_INPUT_DELIVERY_NOT_ESTABLISHED",
+      "special_role": "Required external configuration, checkpoint receipt or comparison table"
+    },
+    {
+      "path": "expected_original26/T5_raw_condition_string_identity_separate_definition.tsv",
+      "bytes": 68,
+      "sha256": "4b1df69f9c536e0dd317f256bd24324b9c8a8c91554549626a2a41fc13c15faa",
+      "included_in_GitHub_export": false,
+      "access_status": "LOCAL_FROZEN_COPY_EXISTS_PUBLIC_INPUT_DELIVERY_NOT_ESTABLISHED",
+      "special_role": "Required external configuration, checkpoint receipt or comparison table"
+    },
+    {
+      "path": "expected_original26/T6_ALL_original_A_corrected_B_and_B_IDonly_condition_categories.tsv",
+      "bytes": 387,
+      "sha256": "193e810ada171bb112410a1da06c88aa53bfaab259e941c85ab47b32cf425523",
+      "included_in_GitHub_export": false,
+      "access_status": "LOCAL_FROZEN_COPY_EXISTS_PUBLIC_INPUT_DELIVERY_NOT_ESTABLISHED",
+      "special_role": "Required external configuration, checkpoint receipt or comparison table"
+    },
+    {
+      "path": "expected_original26/T7_ALL_fixed_sensitivity_values_correct_units.tsv",
+      "bytes": 1860,
+      "sha256": "0a119c64de780f5d94b083c1266e589dba7bfb0cfa6e97f64f27477f910c1aea",
+      "included_in_GitHub_export": false,
+      "access_status": "LOCAL_FROZEN_COPY_EXISTS_PUBLIC_INPUT_DELIVERY_NOT_ESTABLISHED",
+      "special_role": "Required external configuration, checkpoint receipt or comparison table"
+    },
+    {
+      "path": "expected_original26/T7_v2_ALL_fixed_sensitivity_units_rules_and_existing_endpoint34.tsv",
+      "bytes": 5343,
+      "sha256": "3c96b990a86b1df3c7ee8317fd442d94fbd3116d531d9596a51e17f8091b1d49",
+      "included_in_GitHub_export": false,
+      "access_status": "LOCAL_FROZEN_COPY_EXISTS_PUBLIC_INPUT_DELIVERY_NOT_ESTABLISHED",
+      "special_role": "Required external configuration, checkpoint receipt or comparison table"
+    },
+    {
+      "path": "expected_original26/T8_ALL5_original_deterministic_examples_unchanged_selection.tsv",
+      "bytes": 1307,
+      "sha256": "1c82016cfc7049bb0b32a4a852847c49a0afb21ccad396a3b8cd2a6c241bdb3f",
+      "included_in_GitHub_export": false,
+      "access_status": "LOCAL_FROZEN_COPY_EXISTS_PUBLIC_INPUT_DELIVERY_NOT_ESTABLISHED",
+      "special_role": "Required external configuration, checkpoint receipt or comparison table"
+    },
+    {
+      "path": "expected_original26/T8_v2_ALL5_unchanged_examples_explicit_reported_C_ID_stratum.tsv",
+      "bytes": 2986,
+      "sha256": "c90d562a2a2f29f8be1fa7e81be8d582047ae299c7e98ea9ba36403d4018e56b",
+      "included_in_GitHub_export": false,
+      "access_status": "LOCAL_FROZEN_COPY_EXISTS_PUBLIC_INPUT_DELIVERY_NOT_ESTABLISHED",
+      "special_role": "Required external configuration, checkpoint receipt or comparison table"
+    },
+    {
+      "path": "expected_original26/T9_ALL5_examples_ALL_current_endpoint_source_rows_no_filter.tsv",
+      "bytes": 5827,
+      "sha256": "38aedf5700e758838be19529288cadfbcd875323861dc192fad308b5110ecd5a",
+      "included_in_GitHub_export": false,
+      "access_status": "LOCAL_FROZEN_COPY_EXISTS_PUBLIC_INPUT_DELIVERY_NOT_ESTABLISHED",
+      "special_role": "Required external configuration, checkpoint receipt or comparison table"
+    },
+    {
+      "path": "frozen/36_corrected_scope_categories_with_clinical_reading_limits.tsv",
+      "bytes": 756,
+      "sha256": "a054c644562ef37934a7de4d172fb4ad7533fbd3d1c5a200352d62d0f2e1e7e8",
+      "included_in_GitHub_export": false,
+      "access_status": "LOCAL_FROZEN_COPY_EXISTS_PUBLIC_INPUT_DELIVERY_NOT_ESTABLISHED",
+      "special_role": "Required external configuration, checkpoint receipt or comparison table"
+    },
+    {
+      "path": "frozen/checkpoint15_manifest.json",
+      "bytes": 5654,
+      "sha256": "b1204ec1dbade99d16b1e02332be49e3df972ad665ebe16c0665846b51bd1919",
+      "included_in_GitHub_export": false,
+      "access_status": "LOCAL_FROZEN_COPY_EXISTS_PUBLIC_INPUT_DELIVERY_NOT_ESTABLISHED",
+      "special_role": "Required external configuration, checkpoint receipt or comparison table"
+    },
+    {
+      "path": "frozen/protected_manuscript.md",
+      "bytes": 45783,
+      "sha256": "11cb8d9f67ae08219cc4466fa762ea108b3e44b81e318b0383ddfef2aa52d6db",
+      "included_in_GitHub_export": false,
+      "access_status": "LOCAL_FROZEN_COPY_EXISTS_PUBLIC_INPUT_DELIVERY_NOT_ESTABLISHED",
+      "special_role": "Legacy manuscript no-write invariant only; not a biological or numerical generation input; protected copy intentionally excluded"
+    },
+    {
+      "path": "frozen/selected_extraction_receipt_verified_old_replay.json",
+      "bytes": 7622,
+      "sha256": "ed4aaea57beb5e293d1298a219b6fff425986c8d1de2e0c8cf300fa56fe98602",
+      "included_in_GitHub_export": false,
+      "access_status": "LOCAL_FROZEN_COPY_EXISTS_PUBLIC_INPUT_DELIVERY_NOT_ESTABLISHED",
+      "special_role": "Required external configuration, checkpoint receipt or comparison table"
+    },
+    {
+      "path": "frozen/source_deletion_protocol_original.json",
+      "bytes": 38268,
+      "sha256": "bab32cda9870704180de4ec24a0afcdca83791bf3ee88d01a7f9fc8b626984e6",
+      "included_in_GitHub_export": false,
+      "access_status": "LOCAL_FROZEN_COPY_EXISTS_PUBLIC_INPUT_DELIVERY_NOT_ESTABLISHED",
+      "special_role": "Required external configuration, checkpoint receipt or comparison table"
+    },
+    {
+      "path": "frozen/transparency_protocol_original.json",
+      "bytes": 6593,
+      "sha256": "7e0e558f9abf2ef24bb37305252f3b1320258024d909eadd6f04e270680a39c0",
+      "included_in_GitHub_export": false,
+      "access_status": "LOCAL_FROZEN_COPY_EXISTS_PUBLIC_INPUT_DELIVERY_NOT_ESTABLISHED",
+      "special_role": "Required external configuration, checkpoint receipt or comparison table"
+    },
+    {
+      "path": "full_raw_core/frozen/R2_ledger.json",
+      "bytes": 16956,
+      "sha256": "13904aa8f742a91aa0e692afc0a3e317338cc2a32ca135fbbd4add21a89e20aa",
+      "included_in_GitHub_export": false,
+      "access_status": "LOCAL_FROZEN_COPY_EXISTS_PUBLIC_INPUT_DELIVERY_NOT_ESTABLISHED",
+      "special_role": "Required external configuration, checkpoint receipt or comparison table"
+    },
+    {
+      "path": "full_raw_core/frozen/R3_ledger.json",
+      "bytes": 19192,
+      "sha256": "e1ceb56ea5219e90ca4987c5518f1913ba8d9f2df368716ff6bd7855a0e88d6a",
+      "included_in_GitHub_export": false,
+      "access_status": "LOCAL_FROZEN_COPY_EXISTS_PUBLIC_INPUT_DELIVERY_NOT_ESTABLISHED",
+      "special_role": "Required external configuration, checkpoint receipt or comparison table"
+    },
+    {
+      "path": "full_raw_core/frozen/external_dictionary_original.json",
+      "bytes": 121233,
+      "sha256": "c1c65ba7272a4b3f7cf34dc79cc0f2663628c233d4cac95d5ea72e156d8920ef",
+      "included_in_GitHub_export": false,
+      "access_status": "LOCAL_FROZEN_COPY_EXISTS_PUBLIC_INPUT_DELIVERY_NOT_ESTABLISHED",
+      "special_role": "Required external configuration, checkpoint receipt or comparison table"
+    },
+    {
+      "path": "full_raw_core/frozen/external_panel_original.json",
+      "bytes": 74781,
+      "sha256": "f4fbd6add51fc3faec1cd181a8e25187d57c6202ceb0d0711aa9056d82d21d74",
+      "included_in_GitHub_export": false,
+      "access_status": "LOCAL_FROZEN_COPY_EXISTS_PUBLIC_INPUT_DELIVERY_NOT_ESTABLISHED",
+      "special_role": "Required external configuration, checkpoint receipt or comparison table"
+    },
+    {
+      "path": "full_raw_core/frozen/release_and_use_task_protocol.json",
+      "bytes": 3144,
+      "sha256": "0b7f6f447e9484e59eefa1a6a2f040f688cfc4b902625a5b928a754e91b3a1e2",
+      "included_in_GitHub_export": false,
+      "access_status": "LOCAL_FROZEN_COPY_EXISTS_PUBLIC_INPUT_DELIVERY_NOT_ESTABLISHED",
+      "special_role": "Required external configuration, checkpoint receipt or comparison table"
+    },
+    {
+      "path": "full_raw_core/frozen/scientific_protocol_original.json",
+      "bytes": 26797,
+      "sha256": "44c6202ddeb48087248a382fd01bccaba0e94b43dc50a0e6ab3d6e3a192acdcd",
+      "included_in_GitHub_export": false,
+      "access_status": "LOCAL_FROZEN_COPY_EXISTS_PUBLIC_INPUT_DELIVERY_NOT_ESTABLISHED",
+      "special_role": "Required external configuration, checkpoint receipt or comparison table"
+    },
+    {
+      "path": "full_raw_core/frozen/scope_repair_protocol_original.json",
+      "bytes": 5701,
+      "sha256": "c5f3dbe034af2847098f0f1c2983b4accaece0770b2e1173af6b1fa8d02e011b",
+      "included_in_GitHub_export": false,
+      "access_status": "LOCAL_FROZEN_COPY_EXISTS_PUBLIC_INPUT_DELIVERY_NOT_ESTABLISHED",
+      "special_role": "Required external configuration, checkpoint receipt or comparison table"
+    }
+  ],
+  "private_local_preflight_can_use_existing_module_as_resources_dir": true,
+  "public_self_contained_reproduction": false
+}
