@@ -127,10 +127,10 @@ def main():
         dump(w / 'core8_jsonl_exact_comparison.json', comparisons)
         p42 = read(resources / 'full_raw_core/frozen/scope_repair_protocol_original.json')
         mapping = {'protocol.json': p, 'descriptive_results_pending_independent_QA.json': w / 'stage39/logs/descriptive_results_pending_independent_QA.json', 'all_latest_PLP_aggregate_condition_scope_and_sources.jsonl.gz': w / 'derived_stage39/all_latest_PLP_aggregate_condition_scope_and_sources.jsonl.gz', 'external_fixed35_gene_condition_phenotype_identity_only.json': extfile}
-        for name in ['R2_ledger.json', 'R3_ledger.json']:
-            target = w / 'stage39/reviews' / name
-            shutil.copyfile(resources / 'full_raw_core/frozen' / name, target)
-            mapping[name] = target
+        historical_ledger_names = {'R2_ledger.json', 'R3_ledger.json'}
+        dropped_ledger_inputs = [r for r in p42['inputs'] if bn(r['path']) in historical_ledger_names]
+        assert {bn(r['path']) for r in dropped_ledger_inputs} == historical_ledger_names
+        p42['inputs'] = [r for r in p42['inputs'] if bn(r['path']) not in historical_ledger_names]
         for r in p42['inputs']:
             path = mapping[bn(r['path'])]
             r.update(path=str(path), bytes=path.stat().st_size, sha256=sha(path))
@@ -173,9 +173,8 @@ def main():
         out = w / 'strengthening2_all35_landscape_source_influence_20261006'
         qp = out / '第二项补强_全35基因与全部来源影响_检验前固定事后描述协议.json'
         dump(qp, q)
-        manuscript = w / 'presentation_core/manuscript/manuscript_resource_EN_review_ready.md'
-        shutil.copyfile(resources / 'frozen/protected_manuscript.md', manuscript)
-        dump(out / 'FREEZE_协议与输入核验.json', {'protocol_sha256': sha(qp), 'manuscript_sha256': sha(manuscript), 'binding': 'Current pre-run protected manuscript byte copy, a local no-write invariant, not historical publication approval'})
+        guard_file = m / 'execute_guarded.py'
+        dump(out / 'FREEZE_协议与输入核验.json', {'protocol_sha256': sha(qp), 'export_code_guard_path': str(guard_file), 'export_code_guard_sha256': sha(guard_file), 'binding': 'Supplied code file integrity guard outside the run workspace; no manuscript or reviewer content required; not author approval'})
         execute('source_deletion.py')
         census = read(w / 'stage39/logs/descriptive_results_pending_independent_QA.json')
         task = read(w / 'stage43/logs/record_interpretation_use_task_pending_QA.json')
