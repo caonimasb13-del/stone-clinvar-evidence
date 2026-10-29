@@ -220,9 +220,9 @@ def main():
         "reconstructed_all_original_gene_submitter_counts_from_existing40_41": True,
         "reconstructed_corrected_all4078_scope_records": True,
         "units_not_patients_and_no_independent_replication": True,
-        "original_manuscript_sha256_unchanged": sha(B / "manuscript" / "manuscript_resource_EN_review_ready.md") == frozen["manuscript_sha256"],
+        "export_code_guard_sha256_unchanged": sha(Path(frozen["export_code_guard_path"])) == frozen["export_code_guard_sha256"],
     }
-    assert summary["original_manuscript_sha256_unchanged"]
+    assert summary["export_code_guard_sha256_unchanged"]
     write_json("08_numeric_results_and_bounded_ranges.json", summary)
     files = [{"file": p.name, "bytes": p.stat().st_size, "sha256": sha(p)} for p in sorted(O.glob("0*")) if p.is_file()]
     write_json("COMPLETE_计算输出.json", {"finished_utc": now(), "script_sha256": sha(Path(__file__)), "protocol_sha256": sha(PROTO), "files": files, "clinical_biological_replication": False, "new_tests": 0})
