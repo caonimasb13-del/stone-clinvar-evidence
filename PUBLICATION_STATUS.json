@@ -1,0 +1,14 @@
+{
+  "status": "PRIVATE_REPOSITORY_INITIALIZATION_CANDIDATE_ONLY",
+  "scientific_code_or_data_included": false,
+  "input_identity_metadata_included": true,
+  "public_release_authorized": false,
+  "repository_visibility_must_be_verified_before_upload": "private",
+  "licence_assigned": null,
+  "DOI": null,
+  "new_release_created": false,
+  "protected_manuscript_included": false,
+  "source_rows_or_dictionaries_included": false,
+  "full_article_pipeline_validated": false,
+  "biological_replication": false
+}
