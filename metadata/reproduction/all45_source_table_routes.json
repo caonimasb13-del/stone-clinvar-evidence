@@ -1,0 +1,455 @@
+{
+  "scope": "Every original26 plus every later19 source table retained in scope; no result-table content uploaded this round",
+  "tables": [
+    {
+      "id": "Aux_all_raw_status_values.tsv",
+      "bytes": 1174,
+      "sha256": "ee899f312c5d5917eefe7ae00adb00a628faeafaf66b75e0b7010f8dabf19225",
+      "family": "original26",
+      "original_basename": "Aux_all_raw_status_values.tsv",
+      "planned_role": "NUMERICAL_REPLAY_FAMILY",
+      "included_in_code_export": false,
+      "route": "EXTERNAL_REQUIRED_COMPARISON_TABLE"
+    },
+    {
+      "id": "Aux_fixed_coverage_figure_labels.tsv",
+      "bytes": 723,
+      "sha256": "898408736ae5c8d735ba0647430aa07a4494a25b9342fd99b786b21369fa55d0",
+      "family": "original26",
+      "original_basename": "Aux_fixed_coverage_figure_labels.tsv",
+      "planned_role": "NUMERICAL_REPLAY_FAMILY",
+      "included_in_code_export": false,
+      "route": "EXTERNAL_REQUIRED_COMPARISON_TABLE"
+    },
+    {
+      "id": "Aux_review_by_contribution.tsv",
+      "bytes": 2086,
+      "sha256": "24a70cd56fa347cea8fffa690d51b1d348f8aea7c708ba685179f9d480d273b4",
+      "family": "original26",
+      "original_basename": "Aux_review_by_contribution.tsv",
+      "planned_role": "NUMERICAL_REPLAY_FAMILY",
+      "included_in_code_export": false,
+      "route": "EXTERNAL_REQUIRED_COMPARISON_TABLE"
+    },
+    {
+      "id": "Figure4_fixed38_source_data.csv",
+      "bytes": 5477,
+      "sha256": "0d6400312bc6ed029afbe983b6b07622c4c69539663bcd928b7447f5a220651b",
+      "family": "original26",
+      "original_basename": "Figure4_fixed38_source_data.csv",
+      "planned_role": "NUMERICAL_REPLAY_FAMILY",
+      "included_in_code_export": false,
+      "route": "EXTERNAL_REQUIRED_COMPARISON_TABLE"
+    },
+    {
+      "id": "ST10_all1800_direction_cells.tsv",
+      "bytes": 164124,
+      "sha256": "77cf28d67bb3c1ac93998772f4c0ac1d6891d4309616955d001983601a898657",
+      "family": "original26",
+      "original_basename": "ST10_all1800_direction_cells.tsv",
+      "planned_role": "NUMERICAL_REPLAY_FAMILY",
+      "included_in_code_export": false,
+      "route": "EXTERNAL_REQUIRED_COMPARISON_TABLE"
+    },
+    {
+      "id": "ST1_all1141_variant_transparency.tsv",
+      "bytes": 541332,
+      "sha256": "ec3448944c6ff8364768625349c8ee6f53754bf3fd81373726d3cf3aab8e29ac",
+      "family": "original26",
+      "original_basename": "ST1_all1141_variant_transparency.tsv",
+      "planned_role": "NUMERICAL_REPLAY_FAMILY",
+      "included_in_code_export": false,
+      "route": "EXTERNAL_REQUIRED_COMPARISON_TABLE"
+    },
+    {
+      "id": "ST2_all2320_endpoint_source_rows.tsv",
+      "bytes": 1253182,
+      "sha256": "bb226c03293584c7c654d2d80a4ee70e6fa2d29cd8a6c5bbbb460223bd38d487",
+      "family": "original26",
+      "original_basename": "ST2_all2320_endpoint_source_rows.tsv",
+      "planned_role": "NUMERICAL_REPLAY_FAMILY",
+      "included_in_code_export": false,
+      "route": "EXTERNAL_REQUIRED_COMPARISON_TABLE"
+    },
+    {
+      "id": "ST3_all4704_fixed_cross_cells.tsv",
+      "bytes": 259324,
+      "sha256": "71f0a215c5eae9b6fb5af0b70c0dccd0b879c075f9d43b3a103f31b8600ea3e2",
+      "family": "original26",
+      "original_basename": "ST3_all4704_fixed_cross_cells.tsv",
+      "planned_role": "NUMERICAL_REPLAY_FAMILY",
+      "included_in_code_export": false,
+      "route": "EXTERNAL_REQUIRED_COMPARISON_TABLE"
+    },
+    {
+      "id": "ST4_all_endpoint_marginals.tsv",
+      "bytes": 874,
+      "sha256": "8da8bdcfaaf10878cfb21324a60d906d08a48fc8b1766712c41bee66cbd07d69",
+      "family": "original26",
+      "original_basename": "ST4_all_endpoint_marginals.tsv",
+      "planned_role": "NUMERICAL_REPLAY_FAMILY",
+      "included_in_code_export": false,
+      "route": "EXTERNAL_REQUIRED_COMPARISON_TABLE"
+    },
+    {
+      "id": "ST5_all35_gene_landscape.tsv",
+      "bytes": 3500,
+      "sha256": "d989ecf89734f5c3736dae8938df349bc808201be1343297a711308a2a9e29fe",
+      "family": "original26",
+      "original_basename": "ST5_all35_gene_landscape.tsv",
+      "planned_role": "NUMERICAL_REPLAY_FAMILY",
+      "included_in_code_export": false,
+      "route": "EXTERNAL_REQUIRED_COMPARISON_TABLE"
+    },
+    {
+      "id": "ST6_all265_historical_sources.tsv",
+      "bytes": 26684,
+      "sha256": "8a9637628081bf54ba772a33ce579536b059cbc9a744466984cd8ff7f8ddffd2",
+      "family": "original26",
+      "original_basename": "ST6_all265_historical_sources.tsv",
+      "planned_role": "NUMERICAL_REPLAY_FAMILY",
+      "included_in_code_export": false,
+      "route": "EXTERNAL_REQUIRED_COMPARISON_TABLE"
+    },
+    {
+      "id": "ST7_all35_gene_omissions.tsv",
+      "bytes": 9867,
+      "sha256": "6dd2e067be8b1f187b8b7efa05ba552e1461171a113d2c62521fafcd56b1aa2b",
+      "family": "original26",
+      "original_basename": "ST7_all35_gene_omissions.tsv",
+      "planned_role": "NUMERICAL_REPLAY_FAMILY",
+      "included_in_code_export": false,
+      "route": "EXTERNAL_REQUIRED_COMPARISON_TABLE"
+    },
+    {
+      "id": "ST8_all265_historical_source_omissions.tsv",
+      "bytes": 27276,
+      "sha256": "f36194e32a095e7445cbc01b57383a2e7e0ebcdaf9562831c107470f2b65df88",
+      "family": "original26",
+      "original_basename": "ST8_all265_historical_source_omissions.tsv",
+      "planned_role": "NUMERICAL_REPLAY_FAMILY",
+      "included_in_code_export": false,
+      "route": "EXTERNAL_REQUIRED_COMPARISON_TABLE"
+    },
+    {
+      "id": "ST9_all96_current_source_dependencies.tsv",
+      "bytes": 17789,
+      "sha256": "4339df753c7502d56207cc88efb53931280ff73fd9f95eb0bfd25698e5946634",
+      "family": "original26",
+      "original_basename": "ST9_all96_current_source_dependencies.tsv",
+      "planned_role": "NUMERICAL_REPLAY_FAMILY",
+      "included_in_code_export": false,
+      "route": "EXTERNAL_REQUIRED_COMPARISON_TABLE"
+    },
+    {
+      "id": "T10_ALL5_examples_ALL_observed_strict_update_events.tsv",
+      "bytes": 1037,
+      "sha256": "98cd380ee55d2e151917b5a06db2e0da74fe0e2ae5b90eebb957fe446b0a530f",
+      "family": "original26",
+      "original_basename": "T10_ALL5_examples_ALL_observed_strict_update_events.tsv",
+      "planned_role": "NUMERICAL_REPLAY_FAMILY",
+      "included_in_code_export": false,
+      "route": "EXTERNAL_REQUIRED_COMPARISON_TABLE"
+    },
+    {
+      "id": "T1_distinct_tasks_units_denominators_and_scope.tsv",
+      "bytes": 703,
+      "sha256": "e99f78395bacd213341db26331993ba74ec93f1d905fd2d2c546ef1eb1403336",
+      "family": "original26",
+      "original_basename": "T1_distinct_tasks_units_denominators_and_scope.tsv",
+      "planned_role": "NUMERICAL_REPLAY_FAMILY",
+      "included_in_code_export": false,
+      "route": "EXTERNAL_REQUIRED_COMPARISON_TABLE"
+    },
+    {
+      "id": "T2_all6_strict_update_directions_including_zeros.tsv",
+      "bytes": 92,
+      "sha256": "c2211248839f0622b44ac2c603455a5db84ee3e8120c15ccab74656e95b45c84",
+      "family": "original26",
+      "original_basename": "T2_all6_strict_update_directions_including_zeros.tsv",
+      "planned_role": "NUMERICAL_REPLAY_FAMILY",
+      "included_in_code_export": false,
+      "route": "EXTERNAL_REQUIRED_COMPARISON_TABLE"
+    },
+    {
+      "id": "T3_ALL_current_dated_contrast_statuses.tsv",
+      "bytes": 195,
+      "sha256": "1c272b99faa5d4f71c6e913a4c43b12521a1bd4c6e7d1c5a80b32f0e9c8395b0",
+      "family": "original26",
+      "original_basename": "T3_ALL_current_dated_contrast_statuses.tsv",
+      "planned_role": "NUMERICAL_REPLAY_FAMILY",
+      "included_in_code_export": false,
+      "route": "EXTERNAL_REQUIRED_COMPARISON_TABLE"
+    },
+    {
+      "id": "T4_complete_identifier_scope_ALL6_task_cells_with_empty_cell.tsv",
+      "bytes": 266,
+      "sha256": "bca98f7eeac3863791ab9e0012381e7b853025dc4ae33c21069baf7380ef7015",
+      "family": "original26",
+      "original_basename": "T4_complete_identifier_scope_ALL6_task_cells_with_empty_cell.tsv",
+      "planned_role": "NUMERICAL_REPLAY_FAMILY",
+      "included_in_code_export": false,
+      "route": "EXTERNAL_REQUIRED_COMPARISON_TABLE"
+    },
+    {
+      "id": "T5_raw_condition_string_identity_separate_definition.tsv",
+      "bytes": 68,
+      "sha256": "4b1df69f9c536e0dd317f256bd24324b9c8a8c91554549626a2a41fc13c15faa",
+      "family": "original26",
+      "original_basename": "T5_raw_condition_string_identity_separate_definition.tsv",
+      "planned_role": "NUMERICAL_REPLAY_FAMILY",
+      "included_in_code_export": false,
+      "route": "EXTERNAL_REQUIRED_COMPARISON_TABLE"
+    },
+    {
+      "id": "T6_ALL_original_A_corrected_B_and_B_IDonly_condition_categories.tsv",
+      "bytes": 387,
+      "sha256": "193e810ada171bb112410a1da06c88aa53bfaab259e941c85ab47b32cf425523",
+      "family": "original26",
+      "original_basename": "T6_ALL_original_A_corrected_B_and_B_IDonly_condition_categories.tsv",
+      "planned_role": "NUMERICAL_REPLAY_FAMILY",
+      "included_in_code_export": false,
+      "route": "EXTERNAL_REQUIRED_COMPARISON_TABLE"
+    },
+    {
+      "id": "T7_ALL_fixed_sensitivity_values_correct_units.tsv",
+      "bytes": 1860,
+      "sha256": "0a119c64de780f5d94b083c1266e589dba7bfb0cfa6e97f64f27477f910c1aea",
+      "family": "original26",
+      "original_basename": "T7_ALL_fixed_sensitivity_values_correct_units.tsv",
+      "planned_role": "NUMERICAL_REPLAY_FAMILY",
+      "included_in_code_export": false,
+      "route": "EXTERNAL_REQUIRED_COMPARISON_TABLE"
+    },
+    {
+      "id": "T7_v2_ALL_fixed_sensitivity_units_rules_and_existing_endpoint34.tsv",
+      "bytes": 5343,
+      "sha256": "3c96b990a86b1df3c7ee8317fd442d94fbd3116d531d9596a51e17f8091b1d49",
+      "family": "original26",
+      "original_basename": "T7_v2_ALL_fixed_sensitivity_units_rules_and_existing_endpoint34.tsv",
+      "planned_role": "NUMERICAL_REPLAY_FAMILY",
+      "included_in_code_export": false,
+      "route": "EXTERNAL_REQUIRED_COMPARISON_TABLE"
+    },
+    {
+      "id": "T8_ALL5_original_deterministic_examples_unchanged_selection.tsv",
+      "bytes": 1307,
+      "sha256": "1c82016cfc7049bb0b32a4a852847c49a0afb21ccad396a3b8cd2a6c241bdb3f",
+      "family": "original26",
+      "original_basename": "T8_ALL5_original_deterministic_examples_unchanged_selection.tsv",
+      "planned_role": "NUMERICAL_REPLAY_FAMILY",
+      "included_in_code_export": false,
+      "route": "EXTERNAL_REQUIRED_COMPARISON_TABLE"
+    },
+    {
+      "id": "T8_v2_ALL5_unchanged_examples_explicit_reported_C_ID_stratum.tsv",
+      "bytes": 2986,
+      "sha256": "c90d562a2a2f29f8be1fa7e81be8d582047ae299c7e98ea9ba36403d4018e56b",
+      "family": "original26",
+      "original_basename": "T8_v2_ALL5_unchanged_examples_explicit_reported_C_ID_stratum.tsv",
+      "planned_role": "NUMERICAL_REPLAY_FAMILY",
+      "included_in_code_export": false,
+      "route": "EXTERNAL_REQUIRED_COMPARISON_TABLE"
+    },
+    {
+      "id": "T9_ALL5_examples_ALL_current_endpoint_source_rows_no_filter.tsv",
+      "bytes": 5827,
+      "sha256": "38aedf5700e758838be19529288cadfbcd875323861dc192fad308b5110ecd5a",
+      "family": "original26",
+      "original_basename": "T9_ALL5_examples_ALL_current_endpoint_source_rows_no_filter.tsv",
+      "planned_role": "NUMERICAL_REPLAY_FAMILY",
+      "included_in_code_export": false,
+      "route": "EXTERNAL_REQUIRED_COMPARISON_TABLE"
+    },
+    {
+      "id": "SX1",
+      "bytes": 1456204,
+      "sha256": "ac447c2c3cb52918246351000ea3bff153dd0b2f09cb8594a7d0735433bc7bad",
+      "family": "all19_SX",
+      "original_basename": "SX1_complete_fixed_source.csv",
+      "planned_role": "LATER_CONTEXT_RETAINED_NOT_NEWLY_REPLAYED",
+      "included_in_code_export": false,
+      "route": "LOCAL_RESULT_RETAINED_ACCESS_AND_RIGHTS_ROUTE_PENDING"
+    },
+    {
+      "id": "SX2",
+      "bytes": 13346,
+      "sha256": "c009be660088b3eae3a8c2707d9abcf9cf241e5d24fdffac896ee99a26bbb02c",
+      "family": "all19_SX",
+      "original_basename": "SX2_complete_fixed_source.csv",
+      "planned_role": "LATER_CONTEXT_RETAINED_NOT_NEWLY_REPLAYED",
+      "included_in_code_export": false,
+      "route": "LOCAL_RESULT_RETAINED_ACCESS_AND_RIGHTS_ROUTE_PENDING"
+    },
+    {
+      "id": "SX3",
+      "bytes": 64822,
+      "sha256": "55d7431a1f05dbc62c14733679c96e7af872ef36534586724ee20fa8fe38d70a",
+      "family": "all19_SX",
+      "original_basename": "SX3_complete_fixed_source.csv",
+      "planned_role": "LATER_CONTEXT_RETAINED_NOT_NEWLY_REPLAYED",
+      "included_in_code_export": false,
+      "route": "LOCAL_RESULT_RETAINED_ACCESS_AND_RIGHTS_ROUTE_PENDING"
+    },
+    {
+      "id": "SX4",
+      "bytes": 3617,
+      "sha256": "a0335848ad674f1ac1be5b44a3dd06828a0dc6f3e9613587e6e5627821ff9575",
+      "family": "all19_SX",
+      "original_basename": "SX4_complete_fixed_source.csv",
+      "planned_role": "LATER_CONTEXT_RETAINED_NOT_NEWLY_REPLAYED",
+      "included_in_code_export": false,
+      "route": "LOCAL_RESULT_RETAINED_ACCESS_AND_RIGHTS_ROUTE_PENDING"
+    },
+    {
+      "id": "SX5",
+      "bytes": 80699,
+      "sha256": "3ef6f289fdc6517cec0d3dad2b2c2704086d8becc7afccf5fdc8da311052ba5b",
+      "family": "all19_SX",
+      "original_basename": "SX5_complete_fixed_source.csv",
+      "planned_role": "LATER_CONTEXT_RETAINED_NOT_NEWLY_REPLAYED",
+      "included_in_code_export": false,
+      "route": "LOCAL_RESULT_RETAINED_ACCESS_AND_RIGHTS_ROUTE_PENDING"
+    },
+    {
+      "id": "SX6",
+      "bytes": 28480,
+      "sha256": "b137be2ccda5668f8154db00223bd7b277b62678977206975626eca8d35648f7",
+      "family": "all19_SX",
+      "original_basename": "SX6_complete_fixed_source.csv",
+      "planned_role": "LATER_CONTEXT_RETAINED_NOT_NEWLY_REPLAYED",
+      "included_in_code_export": false,
+      "route": "LOCAL_RESULT_RETAINED_ACCESS_AND_RIGHTS_ROUTE_PENDING"
+    },
+    {
+      "id": "SX7",
+      "bytes": 1547793,
+      "sha256": "e39202e447864d5a61465ec22a5966f632953cdd06d975da240cc0a55d354730",
+      "family": "all19_SX",
+      "original_basename": "SX7_complete_fixed_source.csv",
+      "planned_role": "LATER_CONTEXT_RETAINED_NOT_NEWLY_REPLAYED",
+      "included_in_code_export": false,
+      "route": "LOCAL_RESULT_RETAINED_ACCESS_AND_RIGHTS_ROUTE_PENDING"
+    },
+    {
+      "id": "SX8",
+      "bytes": 93127,
+      "sha256": "36b956252f9b9b1b4646c60d5d13eeba695020cf30e028c8d7c757ff054bc2dc",
+      "family": "all19_SX",
+      "original_basename": "SX8_complete_fixed_source.csv",
+      "planned_role": "LATER_CONTEXT_RETAINED_NOT_NEWLY_REPLAYED",
+      "included_in_code_export": false,
+      "route": "LOCAL_RESULT_RETAINED_ACCESS_AND_RIGHTS_ROUTE_PENDING"
+    },
+    {
+      "id": "SX9",
+      "bytes": 281463,
+      "sha256": "a5efa34aeb535958e51dbd1ab94c8a27ede1a54bd1dba3f17983b4e21ab763be",
+      "family": "all19_SX",
+      "original_basename": "SX9_complete_fixed_source.csv",
+      "planned_role": "LATER_CONTEXT_RETAINED_NOT_NEWLY_REPLAYED",
+      "included_in_code_export": false,
+      "route": "LOCAL_RESULT_RETAINED_ACCESS_AND_RIGHTS_ROUTE_PENDING"
+    },
+    {
+      "id": "SX10",
+      "bytes": 13060,
+      "sha256": "a25b6ba578ea201b41f11b55c81d752f2506275d75835224bda6c1dd01def46a",
+      "family": "all19_SX",
+      "original_basename": "SX10_complete_fixed_source.csv",
+      "planned_role": "LATER_CONTEXT_RETAINED_NOT_NEWLY_REPLAYED",
+      "included_in_code_export": false,
+      "route": "LOCAL_RESULT_RETAINED_ACCESS_AND_RIGHTS_ROUTE_PENDING"
+    },
+    {
+      "id": "SX11",
+      "bytes": 21542,
+      "sha256": "b092955156a1c435c3e20ddbd6f48d7dcedf8338e4b5afdaa9c4bbbf7efd73cc",
+      "family": "all19_SX",
+      "original_basename": "SX11_complete_fixed_source.csv",
+      "planned_role": "LATER_CONTEXT_RETAINED_NOT_NEWLY_REPLAYED",
+      "included_in_code_export": false,
+      "route": "LOCAL_RESULT_RETAINED_ACCESS_AND_RIGHTS_ROUTE_PENDING"
+    },
+    {
+      "id": "SX12",
+      "bytes": 21951,
+      "sha256": "bfa225c7981da9d2b929b6b9692bb84746469e5b0d5fef692bb4c955522a2ea6",
+      "family": "all19_SX",
+      "original_basename": "SX12_complete_fixed_source.csv",
+      "planned_role": "LATER_CONTEXT_RETAINED_NOT_NEWLY_REPLAYED",
+      "included_in_code_export": false,
+      "route": "LOCAL_RESULT_RETAINED_ACCESS_AND_RIGHTS_ROUTE_PENDING"
+    },
+    {
+      "id": "SX13",
+      "bytes": 21128,
+      "sha256": "6c76d974c81b35108228013270bebf08539817b8e02d3fcc8eb21c41f2e6bd95",
+      "family": "all19_SX",
+      "original_basename": "SX13_complete_fixed_source.csv",
+      "planned_role": "LATER_CONTEXT_RETAINED_NOT_NEWLY_REPLAYED",
+      "included_in_code_export": false,
+      "route": "LOCAL_RESULT_RETAINED_ACCESS_AND_RIGHTS_ROUTE_PENDING"
+    },
+    {
+      "id": "SX14",
+      "bytes": 19131,
+      "sha256": "66104916ab182e10856796719a07fc3326cfb84f7d4ec17b7ab4efe4487f4557",
+      "family": "all19_SX",
+      "original_basename": "SX14_complete_fixed_source.csv",
+      "planned_role": "LATER_CONTEXT_RETAINED_NOT_NEWLY_REPLAYED",
+      "included_in_code_export": false,
+      "route": "LOCAL_RESULT_RETAINED_ACCESS_AND_RIGHTS_ROUTE_PENDING"
+    },
+    {
+      "id": "SX15",
+      "bytes": 8945,
+      "sha256": "dd7df79cf9c678dcd71997ecf69ee4cb2e969a849caa3cf79a0534df22556ffb",
+      "family": "all19_SX",
+      "original_basename": "SX15_complete_fixed_source.csv",
+      "planned_role": "LATER_CONTEXT_RETAINED_NOT_NEWLY_REPLAYED",
+      "included_in_code_export": false,
+      "route": "LOCAL_RESULT_RETAINED_ACCESS_AND_RIGHTS_ROUTE_PENDING"
+    },
+    {
+      "id": "SX16",
+      "bytes": 24446,
+      "sha256": "2c6044692a227717fb3dc804af8f7968af918126333d38e27279033b63c9fe39",
+      "family": "all19_SX",
+      "original_basename": "SX16_complete_fixed_task_cells.csv",
+      "planned_role": "LATER_CONTEXT_RETAINED_NOT_NEWLY_REPLAYED",
+      "included_in_code_export": false,
+      "route": "LOCAL_RESULT_RETAINED_ACCESS_AND_RIGHTS_ROUTE_PENDING"
+    },
+    {
+      "id": "SX17",
+      "bytes": 72784942,
+      "sha256": "819117d7cc03dea054ffe72c646cc1712aaee623c49c7d9dbe3213090a300f4b",
+      "family": "all19_SX",
+      "original_basename": "SX17_complete_fixed_source.csv",
+      "planned_role": "LATER_CONTEXT_RETAINED_NOT_NEWLY_REPLAYED",
+      "included_in_code_export": false,
+      "route": "LOCAL_RESULT_RETAINED_ACCESS_AND_RIGHTS_ROUTE_PENDING"
+    },
+    {
+      "id": "SX18",
+      "bytes": 71411541,
+      "sha256": "82e3f6e378e40c0f75989a4c07f99a5e53e23840d078bde2bf0baf9eecc7cd75",
+      "family": "all19_SX",
+      "original_basename": "SX18_complete_fixed_source.csv",
+      "planned_role": "LATER_CONTEXT_RETAINED_NOT_NEWLY_REPLAYED",
+      "included_in_code_export": false,
+      "route": "LOCAL_RESULT_RETAINED_ACCESS_AND_RIGHTS_ROUTE_PENDING"
+    },
+    {
+      "id": "SX19",
+      "bytes": 10622812,
+      "sha256": "79e1d7f6b2cdb5e446dd91bc8df57cec8cdd829c17fc88498eebca1bb8a0631a",
+      "family": "all19_SX",
+      "original_basename": "SX19_complete_fixed_source.csv",
+      "planned_role": "LATER_CONTEXT_RETAINED_NOT_NEWLY_REPLAYED",
+      "included_in_code_export": false,
+      "route": "LOCAL_RESULT_RETAINED_ACCESS_AND_RIGHTS_ROUTE_PENDING"
+    }
+  ]
+}
