@@ -1,5 +1,5 @@
 {
-  "status": "PRIVATE_CODE_CANDIDATE_TARGETED_GUARD_REPAIR_VERIFIED_EXTERNAL_INPUTS_REQUIRED",
+  "status": "PRIVATE_CODE_WITH_SAME_HOST_PACKAGED_CHECKPOINT_ENTRY_VERIFIED_PUBLIC_INPUT_DELIVERY_PENDING",
   "files": [
     {
       "path": "ADAPTATION_MANIFEST.json",
@@ -53,8 +53,8 @@
     },
     {
       "path": "CODE_ADAPTATION_CONTRACT.json",
-      "bytes": 6130,
-      "sha256": "50f866416689fe69f41c89782821e63e1f42bea57b71bc396a6b0a25fda85302"
+      "bytes": 6689,
+      "sha256": "b4d5a49000f2b35da78186fcf12289737f5dac2e721b1eb1545a6476ef60edef"
     },
     {
       "path": "execute_guarded.py",
@@ -73,13 +73,13 @@
     },
     {
       "path": "NON_NUMERICAL_GUARD_CHANGE.json",
-      "bytes": 2427,
-      "sha256": "58217184e8e5aaab96bae0a71c3319006d197d1fa327730a908bcd121f5fd928"
+      "bytes": 2819,
+      "sha256": "46f517f563246331d972f020ed59bad6c0695a1fc828e6b700904a62c254d4a1"
     },
     {
       "path": "README.md",
-      "bytes": 3513,
-      "sha256": "4e2997c087df92e63f3d3c00d1d2762abc3b4875f07ff1f34e8319d6aef038c6"
+      "bytes": 4036,
+      "sha256": "5e62dbc9c29236ef2abc8d4a29cd1ed6d101388888687a71999f9c7695b2f07d"
     },
     {
       "path": "reference_identities.json",
