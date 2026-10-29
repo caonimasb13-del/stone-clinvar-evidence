@@ -1,113 +1,163 @@
 {
-  "driver_original_sha256": "887f1ab2bc4a52f68beb617cc9e1c9c46366d47302bc550c800c598d271f3f07",
-  "driver_export_sha256": "115186db065834c0ae060dabfe41d2f483352f37561706b4ca82998ec3158188",
-  "allowed_changes": [
-    "One required --resources-dir argument",
-    "One resources-root assignment",
-    "Only the listed former code-root resource reads use the external resource root"
-  ],
-  "resource_locator_changes": [
-    {
-      "line": 39,
-      "relative_path": "frozen/checkpoint15_manifest.json"
-    },
-    {
-      "line": 61,
-      "relative_path": "full_raw_core/frozen/scientific_protocol_original.json"
-    },
-    {
-      "line": 63,
-      "relative_path": "full_raw_core/frozen/external_dictionary_original.json"
-    },
-    {
-      "line": 67,
-      "relative_path": "full_raw_core/frozen/external_panel_original.json"
-    },
-    {
-      "line": 72,
-      "relative_path": "frozen/selected_extraction_receipt_verified_old_replay.json"
-    },
-    {
-      "line": 83,
-      "relative_path": "full_raw_core/frozen/scope_repair_protocol_original.json"
-    },
-    {
-      "line": 86,
-      "relative_path": "full_raw_core/frozen"
-    },
-    {
-      "line": 94,
-      "relative_path": "full_raw_core/frozen/release_and_use_task_protocol.json"
-    },
-    {
-      "line": 98,
-      "relative_path": "frozen/transparency_protocol_original.json"
-    },
-    {
-      "line": 106,
-      "relative_path": "frozen/36_corrected_scope_categories_with_clinical_reading_limits.tsv"
-    },
-    {
-      "line": 107,
-      "relative_path": "frozen/source_deletion_protocol_original.json"
-    },
-    {
-      "line": 112,
-      "relative_path": "frozen/protected_manuscript.md"
-    },
-    {
-      "line": 140,
-      "relative_path": "expected_original26"
-    }
-  ],
-  "all_other_driver_AST_equal_after_inverse_locator_transform": true,
-  "algorithms_and_guard": [
+  "status": "MINIMAL_POST_HOC_DELIVERY_REPAIR_AST_CONTRACT",
+  "baseline_commit": "bfd1678e362c34e92156746a9d77379a5286960b",
+  "previous_export_contract": {
+    "driver_original_sha256": "887f1ab2bc4a52f68beb617cc9e1c9c46366d47302bc550c800c598d271f3f07",
+    "driver_export_sha256": "115186db065834c0ae060dabfe41d2f483352f37561706b4ca82998ec3158188",
+    "allowed_changes": [
+      "One required --resources-dir argument",
+      "One resources-root assignment",
+      "Only the listed former code-root resource reads use the external resource root"
+    ],
+    "resource_locator_changes": [
+      {
+        "line": 39,
+        "relative_path": "frozen/checkpoint15_manifest.json"
+      },
+      {
+        "line": 61,
+        "relative_path": "full_raw_core/frozen/scientific_protocol_original.json"
+      },
+      {
+        "line": 63,
+        "relative_path": "full_raw_core/frozen/external_dictionary_original.json"
+      },
+      {
+        "line": 67,
+        "relative_path": "full_raw_core/frozen/external_panel_original.json"
+      },
+      {
+        "line": 72,
+        "relative_path": "frozen/selected_extraction_receipt_verified_old_replay.json"
+      },
+      {
+        "line": 83,
+        "relative_path": "full_raw_core/frozen/scope_repair_protocol_original.json"
+      },
+      {
+        "line": 86,
+        "relative_path": "full_raw_core/frozen"
+      },
+      {
+        "line": 94,
+        "relative_path": "full_raw_core/frozen/release_and_use_task_protocol.json"
+      },
+      {
+        "line": 98,
+        "relative_path": "frozen/transparency_protocol_original.json"
+      },
+      {
+        "line": 106,
+        "relative_path": "frozen/36_corrected_scope_categories_with_clinical_reading_limits.tsv"
+      },
+      {
+        "line": 107,
+        "relative_path": "frozen/source_deletion_protocol_original.json"
+      },
+      {
+        "line": 112,
+        "relative_path": "frozen/protected_manuscript.md"
+      },
+      {
+        "line": 140,
+        "relative_path": "expected_original26"
+      }
+    ],
+    "all_other_driver_AST_equal_after_inverse_locator_transform": true,
+    "algorithms_and_guard": [
+      {
+        "path": "algorithms/census.py",
+        "sha256": "b39d23e2ec0c76643dd455edaa75f0d553fb5c0df8aebdace77b24e946d78855",
+        "source_bytes_identical": true
+      },
+      {
+        "path": "algorithms/scope_repair.py",
+        "sha256": "d5e4c9ab060286d414131d2f7ab877aae70a5cc8e88ad3bc59cab3af29162b1d",
+        "source_bytes_identical": true
+      },
+      {
+        "path": "algorithms/scope_repair_QA.py",
+        "sha256": "449e36d7561866140e6d12309e4421a00892eb78b1574d4235b0e10600e8c9ea",
+        "source_bytes_identical": true
+      },
+      {
+        "path": "algorithms/source_chains.py",
+        "sha256": "96f0ec7c3823077df63315e114849d4f413ecd1252d4d794fbc396cc6b3f6b59",
+        "source_bytes_identical": true
+      },
+      {
+        "path": "algorithms/transparency.py",
+        "sha256": "df5318fe22f354efaf31fec36ceaa703b297cca20b08ed8380744ac81cd0e64d",
+        "source_bytes_identical": true
+      },
+      {
+        "path": "algorithms/source_deletion.py",
+        "sha256": "a829fca9b1c3abd20857bc800ef423b8e0f23e8f7359f011b6054a41b02ea10b",
+        "source_bytes_identical": true
+      },
+      {
+        "path": "algorithms/current_ID_sensitivity_QA.py",
+        "sha256": "a1d8b36b8ddea6198882fa028f387442bc3d38b65512957727c10676f2d38d7c",
+        "source_bytes_identical": true
+      },
+      {
+        "path": "algorithms/presentation_tables_verbatim.pyfrag",
+        "sha256": "fed4ac07eafb7cdbb7ee36f3ef0e9256b54f069a9214696d3666390351220a40",
+        "source_bytes_identical": true
+      },
+      {
+        "path": "execute_guarded.py",
+        "sha256": "07c8714e80849d5250610748b648efacf3a89735ed1b2ac4656e11a3affb18d7",
+        "source_bytes_identical": true
+      }
+    ],
+    "scientific_models_rerun": 0,
+    "new_driver_whole_run_tested": false
+  },
+  "driver_baseline_sha256": "115186db065834c0ae060dabfe41d2f483352f37561706b4ca82998ec3158188",
+  "driver_current_sha256": "da25464a10ef8e7557d528241bdbc4be7a43d1abb7253d73a2d5c26a054276c0",
+  "driver_only_declared_two_blocks_changed_inverse_AST_equal": true,
+  "source_deletion_baseline_sha256": "a829fca9b1c3abd20857bc800ef423b8e0f23e8f7359f011b6054a41b02ea10b",
+  "source_deletion_current_sha256": "a16560913120c0ab8f4f631a4f00f798b5dbba2be04cb3289bfa7432f1fb8a34",
+  "source_deletion_only_guard_expression_and_two_field_literals_changed_inverse_AST_equal": true,
+  "all_other_seven_algorithm_files": [
     {
       "path": "algorithms/census.py",
       "sha256": "b39d23e2ec0c76643dd455edaa75f0d553fb5c0df8aebdace77b24e946d78855",
-      "source_bytes_identical": true
-    },
-    {
-      "path": "algorithms/scope_repair.py",
-      "sha256": "d5e4c9ab060286d414131d2f7ab877aae70a5cc8e88ad3bc59cab3af29162b1d",
-      "source_bytes_identical": true
-    },
-    {
-      "path": "algorithms/scope_repair_QA.py",
-      "sha256": "449e36d7561866140e6d12309e4421a00892eb78b1574d4235b0e10600e8c9ea",
-      "source_bytes_identical": true
-    },
-    {
-      "path": "algorithms/source_chains.py",
-      "sha256": "96f0ec7c3823077df63315e114849d4f413ecd1252d4d794fbc396cc6b3f6b59",
-      "source_bytes_identical": true
-    },
-    {
-      "path": "algorithms/transparency.py",
-      "sha256": "df5318fe22f354efaf31fec36ceaa703b297cca20b08ed8380744ac81cd0e64d",
-      "source_bytes_identical": true
-    },
-    {
-      "path": "algorithms/source_deletion.py",
-      "sha256": "a829fca9b1c3abd20857bc800ef423b8e0f23e8f7359f011b6054a41b02ea10b",
-      "source_bytes_identical": true
+      "bytes_unchanged": true
     },
     {
       "path": "algorithms/current_ID_sensitivity_QA.py",
       "sha256": "a1d8b36b8ddea6198882fa028f387442bc3d38b65512957727c10676f2d38d7c",
-      "source_bytes_identical": true
+      "bytes_unchanged": true
     },
     {
       "path": "algorithms/presentation_tables_verbatim.pyfrag",
       "sha256": "fed4ac07eafb7cdbb7ee36f3ef0e9256b54f069a9214696d3666390351220a40",
-      "source_bytes_identical": true
+      "bytes_unchanged": true
     },
     {
-      "path": "execute_guarded.py",
-      "sha256": "07c8714e80849d5250610748b648efacf3a89735ed1b2ac4656e11a3affb18d7",
-      "source_bytes_identical": true
+      "path": "algorithms/scope_repair.py",
+      "sha256": "d5e4c9ab060286d414131d2f7ab877aae70a5cc8e88ad3bc59cab3af29162b1d",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "algorithms/scope_repair_QA.py",
+      "sha256": "449e36d7561866140e6d12309e4421a00892eb78b1574d4235b0e10600e8c9ea",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "algorithms/source_chains.py",
+      "sha256": "96f0ec7c3823077df63315e114849d4f413ecd1252d4d794fbc396cc6b3f6b59",
+      "bytes_unchanged": true
+    },
+    {
+      "path": "algorithms/transparency.py",
+      "sha256": "df5318fe22f354efaf31fec36ceaa703b297cca20b08ed8380744ac81cd0e64d",
+      "bytes_unchanged": true
     }
   ],
-  "scientific_models_rerun": 0,
-  "new_driver_whole_run_tested": false
+  "execute_guarded_bytes_unchanged": true,
+  "affected_descriptive_step_targeted_validation": "PASS_ALL7_TABLE_BYTES_AND_30_SUMMARY_FIELDS",
+  "new_driver_full_pipeline_reexecuted": false
 }
