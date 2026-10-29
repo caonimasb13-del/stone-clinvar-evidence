@@ -27,5 +27,11 @@
   "local_66_input_package_materialized": true,
   "local_package_archive_sha256": "71e26182219a3a6395b491aa3b95ae4ec32a4ddd0f440f9c956e67a9ce337fb4",
   "tested_scientific_code_snapshot_commit": "4621b1b084cb3ac8bf697ff8415203822f358a6c",
-  "second_host_run_performed": false
+  "second_host_run_performed": false,
+  "G2P_provider_data_licence_identified": "CC-BY-4.0; separate from Apache2.0 software",
+  "unresolved_source_scope_items": [
+    "PanelApp output-licensing applicability",
+    "HPO exact-version component licence linkage"
+  ],
+  "public_sharing_scope_review": "metadata/sharing_scope_review.json"
 }
