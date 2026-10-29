@@ -1,0 +1,131 @@
+{
+  "scope": "Exact input identity metadata only; no file bytes or source scientific content included",
+  "selected_row_checkpoints": [
+    {
+      "file": "variant_summary_2025-10.txt.gz.selected_all_associations.jsonl.gz",
+      "bytes": 6320068,
+      "sha256": "cf4cb98ff6b33b681a2a414943c65480c5a872e4a862058c02101b0253aa837f",
+      "selected_rows": 42890
+    },
+    {
+      "file": "variant_summary_2026-10.txt.gz.selected_all_associations.jsonl.gz",
+      "bytes": 7118740,
+      "sha256": "58714fa7c9c40fdeec1b6b67540e25cb11a6865af398b59fd957122ce063b10d",
+      "selected_rows": 48414
+    },
+    {
+      "file": "submission_summary_2025-10.txt.gz.SCV_closed.jsonl.gz",
+      "bytes": 5367946,
+      "sha256": "d4ab3b384aaaa834d5503af31b909bc9771db64985432d99944d002803763a07",
+      "selected_rows": 35155
+    },
+    {
+      "file": "submission_summary_2025-11.txt.gz.SCV_closed.jsonl.gz",
+      "bytes": 5477766,
+      "sha256": "a89a35efa85e0635b98f4a0375188f57a63ce21021dc378bd23ce2888c077102",
+      "selected_rows": 35695
+    },
+    {
+      "file": "submission_summary_2025-12.txt.gz.SCV_closed.jsonl.gz",
+      "bytes": 5516460,
+      "sha256": "e51ab78a326f331f8287ca539f11de32b987ec14d5e213579c89927790b1bb55",
+      "selected_rows": 35900
+    },
+    {
+      "file": "submission_summary_2026-01.txt.gz.SCV_closed.jsonl.gz",
+      "bytes": 5533071,
+      "sha256": "10964795a24f47fa17cdc6671062149494a9f0c5e1205b269a6c61f97fc5b0af",
+      "selected_rows": 36002
+    },
+    {
+      "file": "submission_summary_2026-02.txt.gz.SCV_closed.jsonl.gz",
+      "bytes": 5668986,
+      "sha256": "f6932ea0fcbe4f25cde5cc7f93673f2b026acd9b744cf58976e1e523d9d06f9c",
+      "selected_rows": 36884
+    },
+    {
+      "file": "submission_summary_2026-03.txt.gz.SCV_closed.jsonl.gz",
+      "bytes": 5832748,
+      "sha256": "54f0b079d5f0b7e15f93c4bcb91fd1a9cad2dac68b0d1e5b2dfbbc4f78ad28e2",
+      "selected_rows": 37808
+    },
+    {
+      "file": "submission_summary_2026-04.txt.gz.SCV_closed.jsonl.gz",
+      "bytes": 5826995,
+      "sha256": "b3e458c38202d7e75a54c32d0faaecdb9cd5c95bf8b96d0ecd349022a8774286",
+      "selected_rows": 37620
+    },
+    {
+      "file": "submission_summary_2026-05.txt.gz.SCV_closed.jsonl.gz",
+      "bytes": 5942766,
+      "sha256": "6f51c7fef1d772d68875aa1f93a735b663ad624c1e997da72f3ef628bd749df2",
+      "selected_rows": 38039
+    },
+    {
+      "file": "submission_summary_2026-06.txt.gz.SCV_closed.jsonl.gz",
+      "bytes": 5965402,
+      "sha256": "950bf17ee05c2084832c94f8ae06269d0d9be1d9e51cd6ffca8c92e284659a78",
+      "selected_rows": 38117
+    },
+    {
+      "file": "submission_summary_2026-07.txt.gz.SCV_closed.jsonl.gz",
+      "bytes": 6006924,
+      "sha256": "fbd48afd55ebf94ad9daf6476006a45c0a962e4ead5f9553609011fd2b26e248",
+      "selected_rows": 38271
+    },
+    {
+      "file": "submission_summary_2026-08.txt.gz.SCV_closed.jsonl.gz",
+      "bytes": 6040772,
+      "sha256": "0131daff71771657c3f19b8f201ab13a5415a9bd52a9aa1127a330654c88b928",
+      "selected_rows": 38459
+    },
+    {
+      "file": "submission_summary_2026-09.txt.gz.SCV_closed.jsonl.gz",
+      "bytes": 6057938,
+      "sha256": "32fe4231d575b971e2956567138ded5b15a92c6ed586d75ddd587073b66b175e",
+      "selected_rows": 38533
+    },
+    {
+      "file": "submission_summary_2026-10.txt.gz.SCV_closed.jsonl.gz",
+      "bytes": 6261409,
+      "sha256": "15c1d266b942a90e2a75e659e5e5048a1cb3f0b29ae6a5c267b6a6b3130440c6",
+      "selected_rows": 40429
+    }
+  ],
+  "dictionary_sources": [
+    {
+      "filename": "NCBI_gene_condition_source_id.tsv",
+      "bytes": 1256057,
+      "sha256": "2adec39b1c0311c8430dc5c72504a4de66b73eab2ed17a09ca2fdf0c25f2dbef"
+    },
+    {
+      "filename": "NCBI_disease_names.tsv",
+      "bytes": 5648963,
+      "sha256": "8d1fd44bf5fe24a20640bda7e2d884730502d2501f4d4630f80772df041a21f4"
+    },
+    {
+      "filename": "NCBI_ConceptID_history.tsv",
+      "bytes": 1468120,
+      "sha256": "a1ecc8212fe3778474482b258301034dd139e53fe1e4d58d601a69a6ef9f849e"
+    },
+    {
+      "filename": "hp.obo",
+      "bytes": 10863613,
+      "sha256": "93dace952fcb3ec4728818857f6ba76bc2d5312f4d83266519b8694b8e798f22"
+    },
+    {
+      "filename": "phenotype.hpoa",
+      "bytes": 35816037,
+      "sha256": "e89aa39c8f97bf5a52c5d160f9250a603681d630ade8ec2679d84ac5aece1f72"
+    },
+    {
+      "filename": "genes_to_disease.txt",
+      "bytes": 1492039,
+      "sha256": "7937a1b92779dc8614e39ace623b443c7c71dd15e4de11d5e52b14e331ab5978"
+    }
+  ],
+  "checkpoint_total_bytes": 88937991,
+  "dictionary_total_bytes": 56544829,
+  "reference_outputs": "The eight prior core JSONL results and the corrected-scope ninth file are additionally required for exact comparisons. They are not generation inputs and are not included in this initialization candidate.",
+  "scientific_algorithms": "Not included in this initial candidate; separately preserved local module is held for further export review."
+}
