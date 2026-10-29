@@ -1,0 +1,14 @@
+{
+  "status": "EXPLICIT_AUTHOR_APPROVAL_RECORDED_PROJECT_SCOPED_LICENCES_APPLIED",
+  "approved_date": "2026-10-29",
+  "author_controlled_software": "MIT",
+  "author_original_results_and_documentation": "CC-BY-4.0",
+  "third_party_terms_unchanged": true,
+  "public_release_authorized": false,
+  "repository_visibility": "private",
+  "licence_files": [
+    "LICENSE",
+    "LICENSE_DATA_CC_BY_4_0.txt",
+    "LICENSE_SCOPE.txt"
+  ]
+}
