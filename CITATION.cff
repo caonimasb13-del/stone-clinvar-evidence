@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "Project preparation metadata only. No archived software release or DOI has been assigned."
+type: software
+title: "Stone ClinVar evidence: project preparation"
+authors:
+  - family-names: Kang
+    given-names: Kai
+    affiliation: "Department of Urology, First Hospital of Shanxi Medical University"
+  - family-names: Wei
+    given-names: Xin
+    affiliation: "Department of Urology, First Hospital of Shanxi Medical University"
+  - family-names: Liu
+    given-names: Zhi
+    affiliation: "Department of Urology, First Hospital of Shanxi Medical University"
+  - family-names: Zhang
+    given-names: Ao
+    affiliation: "Department of Urology, First Hospital of Shanxi Medical University"
+  - family-names: Zhang
+    given-names: Xuhui
+    affiliation: "Department of Urology, First Hospital of Shanxi Medical University"
+url: "https://github.com/caonimasb13-del/stone-clinvar-evidence"
