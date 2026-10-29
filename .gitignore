@@ -1,0 +1,21 @@
+# Local inputs and generated work are kept outside the preparation repository.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+*.pem
+*.key
+*.p12
+data/raw/
+data/checkpoints/
+data/dictionaries/
+reference_results/
+replay_run_*/
+qa/internal/
+*.log
+*.zip
+*.docx
+*.pdf
+*.html
