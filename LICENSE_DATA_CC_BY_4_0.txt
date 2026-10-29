@@ -1,0 +1,19 @@
+Author-original results and explanatory documentation — CC BY4.0
+
+Copyright (c) 2026 Kai Kang, Xin Wei, Zhi Liu, Ao Zhang and Xuhui Zhang.
+
+The authors' original data organization, results and explanatory documentation,
+to the extent of rights controlled by the authors, are licensed under the
+Creative Commons Attribution4.0 International License (CC BY4.0).
+Licence and legal-code link: https://creativecommons.org/licenses/by/4.0/
+Legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Retain appropriate attribution and the licence link, and indicate changes.
+This grant does not replace provider terms for reused third-party records,
+vocabularies, annotations or other components. Source terms and version/credit
+information remain in SOURCE_CREDITS_AND_SCOPE.txt and THIRD_PARTY_NOTICES.md.
+No ownership or new restriction is asserted over material in the public domain.
+
+Adopted by explicit project-author approval on29October2026. Repository
+visibility remains private; this licence assignment does not create a public
+dataset deposit, Release, DOI or journal publication.
