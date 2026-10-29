@@ -1,0 +1,2 @@
+# Retain exact file bytes; do not normalize scientific input/output line endings.
+* -text
