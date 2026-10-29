@@ -1,6 +1,6 @@
 {
-  "status": "PRIVATE_REPOSITORY_INITIALIZATION_CANDIDATE_ONLY",
-  "scientific_code_or_data_included": false,
+  "status": "PRIVATE_SCIENTIFIC_CODE_CANDIDATE_EXTERNAL_INPUT_DELIVERY_PENDING",
+  "scientific_code_or_data_included": true,
   "input_identity_metadata_included": true,
   "public_release_authorized": false,
   "repository_visibility_must_be_verified_before_upload": "private",
@@ -10,5 +10,11 @@
   "protected_manuscript_included": false,
   "source_rows_or_dictionaries_included": false,
   "full_article_pipeline_validated": false,
-  "biological_replication": false
+  "biological_replication": false,
+  "scientific_implementation_included": true,
+  "standalone_source_rows_dictionary_or_result_tables_included": false,
+  "expected_constants_and_classification_rules_present_in_code": true,
+  "exported_driver_full_numerical_run_performed": false,
+  "read_only_local_input_identity_preflight_passed": true,
+  "public_self_contained_reproduction": false
 }
