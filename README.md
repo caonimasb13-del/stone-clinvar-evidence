@@ -4,9 +4,9 @@ Preparation repository for source-linked interpretation of ClinVar assertions in
 
 ## Current contents
 
-This initialization candidate contains documentation, citation metadata, input identity requirements and a bounded summary of previously completed numerical verification. It does not contain the scientific analysis implementation, source records or required dictionary data. It is not an executable reproduction release or a public data deposit.
+The private repository now includes the bounded scientific implementation under analysis/, alongside documentation, citation metadata, input identities and the all93-module/all45-table disposition inventories. Source records, required configuration/dictionary contents, result tables, protected manuscript and internal reviewer ledgers are not uploaded. The code requires separately supplied exact inputs and is not a self-contained public reproduction release or a public data deposit.
 
-The existing manuscript and numerical reproduction module remain separately preserved in the local project. Addition of code, derived source data and third-party inputs requires a reviewed file manifest and applicable source-rights decisions. No open software or blanket data licence, repository release or DOI has been assigned in this preparation state.
+The existing manuscript and numerical reproduction module remain separately preserved in the local project. Further derived-data and third-party input exports require their own reviewed file manifest and applicable source-rights decisions. The exported driver adds only an explicit external resource directory; algorithm bytes are unchanged. A read-only input preflight passed locally, but this newly exported driver was not re-executed as an end-to-end scientific analysis. See analysis/README.md. No open software or blanket data licence, repository release or DOI has been assigned in this preparation state.
 
 ## Verification scope already recorded locally
 
