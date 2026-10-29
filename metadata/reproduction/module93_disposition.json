@@ -5,8 +5,9 @@
       "path": "ADAPTATION_MANIFEST.json",
       "bytes": 4000,
       "sha256": "1825fa0d98e71f8cb109f233ead587303a86d7fe265ec2184a38aac5aac93e57",
-      "disposition": "INCLUDED_PRIVATE_CODE_BYTE_IDENTICAL",
-      "public_rights_cleared": false
+      "disposition": "INCLUDED_MANIFEST_UPDATED_FOR_DECLARED_GUARD_CHANGE",
+      "public_rights_cleared": false,
+      "exported_sha256": "1de0f5f5fcc2723f26e7705f26dc18c1fdac8d5e377d8b1690f195d8c09f8683"
     },
     {
       "path": "algorithms/census.py",
@@ -54,8 +55,9 @@
       "path": "algorithms/source_deletion.py",
       "bytes": 15665,
       "sha256": "a829fca9b1c3abd20857bc800ef423b8e0f23e8f7359f011b6054a41b02ea10b",
-      "disposition": "INCLUDED_PRIVATE_CODE_BYTE_IDENTICAL",
-      "public_rights_cleared": false
+      "disposition": "INCLUDED_WITH_DECLARED_NON_NUMERICAL_INTEGRITY_GUARD_CHANGE",
+      "public_rights_cleared": false,
+      "exported_sha256": "a16560913120c0ab8f4f631a4f00f798b5dbba2be04cb3289bfa7432f1fb8a34"
     },
     {
       "path": "algorithms/transparency.py",
@@ -292,7 +294,7 @@
       "path": "frozen/protected_manuscript.md",
       "bytes": 45783,
       "sha256": "11cb8d9f67ae08219cc4466fa762ea108b3e44b81e318b0383ddfef2aa52d6db",
-      "disposition": "EXCLUDED_PROTECTED_MANUSCRIPT_NO_WRITE_GUARD_INPUT",
+      "disposition": "OMITTED_HISTORICAL_NON_NUMERICAL_DEPENDENCY_NOT_REQUIRED_AT_RUNTIME",
       "public_rights_cleared": false
     },
     {
@@ -411,14 +413,14 @@
       "path": "full_raw_core/frozen/R2_ledger.json",
       "bytes": 16956,
       "sha256": "13904aa8f742a91aa0e692afc0a3e317338cc2a32ca135fbbd4add21a89e20aa",
-      "disposition": "EXCLUDED_REQUIRED_EXTERNAL_RESOURCE_CONTENT",
+      "disposition": "OMITTED_HISTORICAL_NON_NUMERICAL_DEPENDENCY_NOT_REQUIRED_AT_RUNTIME",
       "public_rights_cleared": false
     },
     {
       "path": "full_raw_core/frozen/R3_ledger.json",
       "bytes": 19192,
       "sha256": "e1ceb56ea5219e90ca4987c5518f1913ba8d9f2df368716ff6bd7855a0e88d6a",
-      "disposition": "EXCLUDED_REQUIRED_EXTERNAL_RESOURCE_CONTENT",
+      "disposition": "OMITTED_HISTORICAL_NON_NUMERICAL_DEPENDENCY_NOT_REQUIRED_AT_RUNTIME",
       "public_rights_cleared": false
     },
     {
@@ -565,8 +567,9 @@
       "path": "run_key_results.py",
       "bytes": 13961,
       "sha256": "887f1ab2bc4a52f68beb617cc9e1c9c46366d47302bc550c800c598d271f3f07",
-      "disposition": "INCLUDED_PRIVATE_CODE_RESOURCE_LOCATOR_ONLY_ADAPTED",
-      "public_rights_cleared": false
+      "disposition": "INCLUDED_ADAPTED_LOCATORS_AND_DECLARED_NON_NUMERICAL_DEPENDENCY_REMOVAL",
+      "public_rights_cleared": false,
+      "exported_sha256": "da25464a10ef8e7557d528241bdbc4be7a43d1abb7253d73a2d5c26a054276c0"
     },
     {
       "path": "Supplement_S9_reproducibility_scope.md",
@@ -652,5 +655,6 @@
       "disposition": "EXCLUDED_NOT_REQUIRED_BY_THIS_CHECKPOINT_CODE_ENTRY_OR_SUPERSEDED_DOCUMENTATION",
       "public_rights_cleared": false
     }
-  ]
+  ],
+  "current_guard_dependency_note": "Original93-file identities are retained; manuscript and ledgers are omitted and no longer required by the exported runtime. Numerical scientific input and external rights gaps remain."
 }
