@@ -1,0 +1,72 @@
+{
+  "status": "PASS_FIRST_CONTINUOUS_PACKAGED_FIXED_CHECKPOINT_ENTRY_ON_SAME_WINDOWS_HOST",
+  "tested_code_snapshot_commit": "4621b1b084cb3ac8bf697ff8415203822f358a6c",
+  "tested_archive_sha256": "71e26182219a3a6395b491aa3b95ae4ec32a4ddd0f440f9c956e67a9ce337fb4",
+  "tested_archive_bytes": 110810904,
+  "completed_utc": "2026-10-29T08:59:42.870639+00:00",
+  "continuous_entry_attempts": 1,
+  "core_outputs": [
+    {
+      "file": "all_endpoint_variant_identity_and_exclusions.jsonl.gz",
+      "rows": 24570,
+      "all_scientific_rows_equal": true
+    },
+    {
+      "file": "all_selected_SCV_eligibility_and_source_refs.jsonl.gz",
+      "rows": 40834,
+      "all_scientific_rows_equal": true
+    },
+    {
+      "file": "all_primary_major_events.jsonl.gz",
+      "rows": 36,
+      "all_scientific_rows_equal": true
+    },
+    {
+      "file": "all_five_level_classification_events.jsonl.gz",
+      "rows": 77,
+      "all_scientific_rows_equal": true
+    },
+    {
+      "file": "all_adjacent_pair_major_events.jsonl.gz",
+      "rows": 90,
+      "all_scientific_rows_equal": true
+    },
+    {
+      "file": "all_current_dated_assertion_contrasts.jsonl.gz",
+      "rows": 21371,
+      "all_scientific_rows_equal": true
+    },
+    {
+      "file": "all_latest_PLP_aggregate_condition_scope_and_sources.jsonl.gz",
+      "rows": 4078,
+      "all_scientific_rows_equal": true
+    },
+    {
+      "file": "all_current_dated_contrast_complete_ID_sensitivity.jsonl.gz",
+      "rows": 21371,
+      "all_scientific_rows_equal": true
+    },
+    {
+      "file": "all4078_original_and_corrected_condition_scope_with_sources.jsonl.gz",
+      "rows": 4078,
+      "all_scientific_rows_equal": true
+    }
+  ],
+  "core_semantic_rows": 116505,
+  "table_counts": {
+    "REGENERATED_ALL_HEADERS_AND_CELLS_EXACT": 23,
+    "PRESERVED_DOCUMENTARY_OR_MANUAL_INPUT_NOT_REGENERATED": 3
+  },
+  "all23_generated_table_headers_cells_equal": true,
+  "audited_processes": 8,
+  "old_E_project_or_D_data_reads_observed": false,
+  "all_package_payload_hashes_unchanged": true,
+  "raw_source_extraction_rerun": false,
+  "full_article_pipeline_replayed": false,
+  "later19_SX_tables_replayed": false,
+  "new_inferential_tests": 0,
+  "same_host_is_not_independent_biological_or_second_host_validation": true,
+  "inputs_or_reference_output_contents_in_this_repository": false,
+  "public_data_or_licence_clearance": false,
+  "receipt_scope": "Exact code and local-input package tested on the same Windows host. New metadata/documentation below does not change any algorithm, driver, guard or scientific input byte."
+}
