@@ -4,7 +4,7 @@
   "input_identity_metadata_included": true,
   "public_release_authorized": false,
   "repository_visibility_must_be_verified_before_upload": "private",
-  "licence_assigned": null,
+  "licence_assigned": "MIT for author-controlled software; CC-BY-4.0 for author-original results/documentation; provider terms separate",
   "DOI": null,
   "new_release_created": false,
   "protected_manuscript_included": false,
@@ -29,9 +29,19 @@
   "tested_scientific_code_snapshot_commit": "4621b1b084cb3ac8bf697ff8415203822f358a6c",
   "second_host_run_performed": false,
   "G2P_provider_data_licence_identified": "CC-BY-4.0; separate from Apache2.0 software",
-  "unresolved_source_scope_items": [
+  "public_sharing_scope_review": "metadata/sharing_scope_review.json",
+  "source_scope_items_addressed_by_author_confirmation": [
     "PanelApp output-licensing applicability",
     "HPO exact-version component licence linkage"
   ],
-  "public_sharing_scope_review": "metadata/sharing_scope_review.json"
+  "author_permission_scope_confirmation": "metadata/author_permission_scope_confirmation.json",
+  "author_confirms_no_separate_additional_permission_required": true,
+  "project_licence_selection_pending": false,
+  "project_software_or_dataset_licence_applied": true,
+  "licences_by_scope": {
+    "author_software": "MIT",
+    "author_original_results_documentation": "CC-BY-4.0",
+    "third_party": "original terms retained"
+  },
+  "project_licence_decision": "metadata/project_licence_decision.json"
 }
