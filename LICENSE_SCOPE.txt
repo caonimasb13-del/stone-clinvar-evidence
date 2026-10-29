@@ -1,0 +1,15 @@
+SCOPED PROJECT LICENCES
+
+LICENSE (MIT) applies to the authors' original software, including analysis/
+Python implementations, the driver and software-only integrity helpers.
+LICENSE_DATA_CC_BY_4_0.txt applies to author-original results and explanatory
+documentation where the authors control those rights. Reused source records,
+ontologies, annotations and third-party components retain their own terms.
+
+Retain THIRD_PARTY_NOTICES.md and per-file source/version/attribution metadata.
+The software licence does not overwrite source-data conditions; the author
+data licence does not reclassify third-party components as author-owned.
+
+The explicit licence decision is metadata/project_licence_decision.json.
+Licences have been assigned. Public repository conversion, data deposition,
+Release/DOI creation and manuscript submission have not been authorized here.
