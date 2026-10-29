@@ -1,0 +1,65 @@
+{
+  "status": "SOURCE_SPECIFIC_RIGHTS_REVIEW_NO_PUBLIC_RELEASE_OR_NEW_LICENCE",
+  "review_date": "2026-10-29",
+  "G2P": {
+    "provider_data_licence": "CC-BY-4.0",
+    "frontend_software_licence_separate": "Apache-2.0",
+    "source": "https://github.com/EBI-G2P/gene2phenotype_web/blob/10352e1b5eab54112f7acce4d8659ba7d0cbd5da/src/views/ResponsibleHandoverView.vue",
+    "saved_deployed_frontend_also_contains_explicit_data_clause": true,
+    "prior_unknown_data_licence_status_corrected": true,
+    "actual_affected_supplement_tables": [
+      "SX2",
+      "SX3",
+      "SX4"
+    ],
+    "not_a_licence_for_other_project_components": true
+  },
+  "ClinGen": {
+    "scope": "Curated content",
+    "licence": "CC0-1.0",
+    "source": "https://clinicalgenome.org/docs/terms-of-use/",
+    "retain_attribution_and_access_date": true
+  },
+  "PanelApp": {
+    "state": "OUTPUT_LICENSING_APPLICABILITY_NEEDS_CONFIRMATION",
+    "source": "https://prod-media-panelapp.genomicsengland.co.uk/media/files/GEL_-_PanelApp_Terms_of_Use_December_2019.pdf",
+    "relevant_clause": "4.2 plus1,5–7",
+    "actual_dependency": "Externally fixed35gene panel149 signed-off6.2",
+    "interpretation_not_legal_ruling": "The source addresses licensing/assignment of broad Outputs. This review does not decide that research publication is prohibited or that permission has been obtained."
+  },
+  "HPO": {
+    "state": "LEGACY_CONDITIONAL_PROJECT_GRANT_FOUND_EXACT_PINNED_COMPONENT_LINKAGE_UNRESOLVED",
+    "legacy_project_policy": "https://human-phenotype-ontology.github.io/license.html",
+    "pinned_tags": [
+      "v2025-09-01",
+      "v2026-09-01"
+    ],
+    "pinned_license_pointer_target": "https://hpo.jax.org/app/license",
+    "pointer_target_failed_in_current_check": true,
+    "conditions": [
+      "attribution",
+      "version/date display",
+      "unchanged distributed ontology/file relationships"
+    ],
+    "no_blanket_CC0_or_project_relicensing": true
+  },
+  "NCBI": {
+    "source": "https://www.ncbi.nlm.nih.gov/home/about/policies/",
+    "scope": "Source policy and attribution route, not a transfer of all original third-party rights"
+  },
+  "journal_and_archive": {
+    "journal_guidelines": "https://link.springer.com/journal/12920/submission-guidelines",
+    "journal_article_licence_page": "https://link.springer.com/journal/12920/how-to-publish-with-us",
+    "current_article_licence_choices": [
+      "CC-BY",
+      "CC-BY-NC-ND"
+    ],
+    "archive_policy": "https://help.zenodo.org/docs/deposit/describe-records/licenses/",
+    "licence_field_required_and_default_not_an_upstream_grant": true
+  },
+  "public_repository_or_data_deposit_created": false,
+  "project_licence_assigned": false,
+  "contact_or_permission_obtained": false,
+  "availability_status_document": "docs/data_code_availability_current_status.txt",
+  "historical_local_paths": "Research provenance literals do not establish patient identifiers or actual path access. Frozen inputs remain unchanged; do not treat this statement as comprehensive deidentification."
+}
