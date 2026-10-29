@@ -1,0 +1,68 @@
+{
+  "scope": "Reference output identity metadata only. They are comparison targets, not generation inputs.",
+  "files": [
+    {
+      "file": "all_endpoint_variant_identity_and_exclusions.jsonl.gz",
+      "directory_argument": "reference_derived_dir",
+      "bytes": 842459,
+      "sha256": "3087b0b4106dcf1b4dc08446166ea3606b34444dc1d62cc771cbc4dc382c01cf",
+      "semantic_rows_previously_compared": 24570
+    },
+    {
+      "file": "all_selected_SCV_eligibility_and_source_refs.jsonl.gz",
+      "directory_argument": "reference_derived_dir",
+      "bytes": 9640504,
+      "sha256": "93d5ce6ab0e955db5aad14c5bcacc81b016e1f7a06de7fdfbcbadabc7f6ced2a",
+      "semantic_rows_previously_compared": 40834
+    },
+    {
+      "file": "all_primary_major_events.jsonl.gz",
+      "directory_argument": "reference_derived_dir",
+      "bytes": 5786,
+      "sha256": "d2afeb0045721ab9f07a51218d07db91abbb9a02596465bfce7518410dd14a7d",
+      "semantic_rows_previously_compared": 36
+    },
+    {
+      "file": "all_five_level_classification_events.jsonl.gz",
+      "directory_argument": "reference_derived_dir",
+      "bytes": 992,
+      "sha256": "867434299ddb45b2c012fa937a51fce5750a40b77a39ea9a0893a6537c50053d",
+      "semantic_rows_previously_compared": 77
+    },
+    {
+      "file": "all_adjacent_pair_major_events.jsonl.gz",
+      "directory_argument": "reference_derived_dir",
+      "bytes": 11166,
+      "sha256": "0751deaceae63f01ffa7b1ec644007703b7d573a1e919f17988c3c360a097c7b",
+      "semantic_rows_previously_compared": 90
+    },
+    {
+      "file": "all_current_dated_assertion_contrasts.jsonl.gz",
+      "directory_argument": "reference_derived_dir",
+      "bytes": 682722,
+      "sha256": "72ec75dfd6b028976af9e6c7965fb7142b607b74c365d09327c5cac20e0abdf8",
+      "semantic_rows_previously_compared": 21371
+    },
+    {
+      "file": "all_latest_PLP_aggregate_condition_scope_and_sources.jsonl.gz",
+      "directory_argument": "reference_derived_dir",
+      "bytes": 1382627,
+      "sha256": "2d0e68bcb41df020e86efe3eb92914aacbc49b1294ad8e7313e9da2289e07a15",
+      "semantic_rows_previously_compared": 4078
+    },
+    {
+      "file": "all_current_dated_contrast_complete_ID_sensitivity.jsonl.gz",
+      "directory_argument": "reference_derived_dir",
+      "bytes": 244374,
+      "sha256": "37f2c53d4187b4bcd4d376010989c2523049532d30dead1a32db6bdc46faf4a8",
+      "semantic_rows_previously_compared": 21371
+    },
+    {
+      "file": "all4078_original_and_corrected_condition_scope_with_sources.jsonl.gz",
+      "directory_argument": "reference_corrected",
+      "bytes": 2041891,
+      "sha256": "beb47e550c1a06b4e5c52a1e06878edb30e5cdbe46b10405baabd34cbd6fe09a",
+      "semantic_rows_previously_compared": 4078
+    }
+  ]
+}
