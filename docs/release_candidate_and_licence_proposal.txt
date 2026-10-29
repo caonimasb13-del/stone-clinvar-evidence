@@ -1,0 +1,8 @@
+ADOPTED PROJECT LICENCES — PRIVATE PREPARATION STATE
+
+The project authors explicitly approved the recommended combination on29October2026:
+- MIT for author-controlled original software (LICENSE).
+- CC BY4.0 for author-original results/documentation (LICENSE_DATA_CC_BY_4_0.txt).
+- Original provider terms for reused third-party content (LICENSE_SCOPE.txt and THIRD_PARTY_NOTICES.md).
+
+This file retains its earlier proposal filename for existing links. The proposal is now adopted. The private repository has not been converted to public, and no data archive, Release, DOI or manuscript submission has been created. The code/data licences can permit commercial reuse within their scope; source terms remain separate.
