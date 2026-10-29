@@ -14,7 +14,7 @@
   "scientific_implementation_included": true,
   "standalone_source_rows_dictionary_or_result_tables_included": false,
   "expected_constants_and_classification_rules_present_in_code": true,
-  "exported_driver_full_numerical_run_performed": false,
+  "exported_driver_full_numerical_run_performed": true,
   "read_only_local_input_identity_preflight_passed": true,
   "public_self_contained_reproduction": false,
   "non_numerical_manuscript_and_internal_ledger_runtime_dependencies_removed": true,
@@ -22,5 +22,10 @@
   "full_pipeline_or_second_host_validation": false,
   "targeted_descriptive_steps_executed": 1,
   "external_required_resource_files": 36,
-  "new_clinical_or_inferential_tests": 0
+  "new_clinical_or_inferential_tests": 0,
+  "continuous_packaged_fixed_checkpoint_entry_on_same_host_passed": true,
+  "local_66_input_package_materialized": true,
+  "local_package_archive_sha256": "71e26182219a3a6395b491aa3b95ae4ec32a4ddd0f440f9c956e67a9ce337fb4",
+  "tested_scientific_code_snapshot_commit": "4621b1b084cb3ac8bf697ff8415203822f358a6c",
+  "second_host_run_performed": false
 }
