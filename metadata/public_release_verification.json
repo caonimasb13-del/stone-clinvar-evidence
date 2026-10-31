@@ -1,0 +1,56 @@
+{
+  "status": "PASS_ACTUAL_PUBLIC_REPOSITORY_RELEASE_AND_ALL3_COMPLETE_ANONYMOUS_DOWNLOAD_HASHES",
+  "utc": "2026-10-31T04:56:42.950755+00:00",
+  "repository": "https://github.com/caonimasb13-del/stone-clinvar-evidence",
+  "visibility": "public",
+  "repository_http_without_auth": 200,
+  "release_id": 429729104,
+  "tag": "v1.0.0",
+  "release_url": "https://github.com/caonimasb13-del/stone-clinvar-evidence/releases/tag/v1.0.0",
+  "published_at": "2026-10-31T04:55:44Z",
+  "tag_commit": "b670a90c2861dc2407e4a489f47c8cfa327a326a",
+  "assets": [
+    {
+      "asset_id": 694395292,
+      "name": "Stone_ClinVar_fixed_checkpoint_PORTABLE_PRIVATE.zip",
+      "url": "https://github.com/caonimasb13-del/stone-clinvar-evidence/releases/download/v1.0.0/Stone_ClinVar_fixed_checkpoint_PORTABLE_PRIVATE.zip",
+      "http_status": 200,
+      "download_bytes": 110297439,
+      "sha256": "88b6331e3beaf9a548d9d9782f14d790123dc6f92af11ce6e9cf652d71521f72",
+      "equal_authorized_local_bytes": true,
+      "authorization_header_sent": false,
+      "redirect_final_host": "release-assets.githubusercontent.com"
+    },
+    {
+      "asset_id": 694396818,
+      "name": "Stone_ClinVar_CODE_for_PORTABLE_INPUTS_PRIVATE.zip",
+      "url": "https://github.com/caonimasb13-del/stone-clinvar-evidence/releases/download/v1.0.0/Stone_ClinVar_CODE_for_PORTABLE_INPUTS_PRIVATE.zip",
+      "http_status": 200,
+      "download_bytes": 105402,
+      "sha256": "d9541e897a1373ad5ded7e8b676c116d3ab79afb9f490b064c601769cbbe74b4",
+      "equal_authorized_local_bytes": true,
+      "authorization_header_sent": false,
+      "redirect_final_host": "release-assets.githubusercontent.com"
+    },
+    {
+      "asset_id": 694396903,
+      "name": "Stone_ClinVar_derived_resource_LICENSED_PRIVATE.zip",
+      "url": "https://github.com/caonimasb13-del/stone-clinvar-evidence/releases/download/v1.0.0/Stone_ClinVar_derived_resource_LICENSED_PRIVATE.zip",
+      "http_status": 200,
+      "download_bytes": 18402823,
+      "sha256": "bf8656ade3388cd059ffb9076ba27f6d9a0e9053f3d5afe000c4233ea05cbc23",
+      "equal_authorized_local_bytes": true,
+      "authorization_header_sent": false,
+      "redirect_final_host": "release-assets.githubusercontent.com"
+    }
+  ],
+  "all3_reviewed_ZIP_bytes_unchanged": true,
+  "full_history_and_candidate_finite_scan_passed": true,
+  "new_scientific_computations": 0,
+  "DOI": null,
+  "manuscript_submitted": false,
+  "credentials_saved_printed_or_sent_to_non_GitHub_hosts": false,
+  "one_visibility_transition_publication404_retained": true,
+  "uploads_repeated": false,
+  "draft_URLs_not_used_for_public_downloads": true
+}
