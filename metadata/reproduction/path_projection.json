@@ -1,0 +1,379 @@
+{
+  "scope": "Copies of7 author-owned protocol/receipt files; not upstream ontology/dictionary changes; original location strings excluded. All non-location JSON content is equal.",
+  "files": [
+    {
+      "path": "resources/frozen/selected_extraction_receipt_verified_old_replay.json",
+      "original_bytes": 7622,
+      "original_sha256": "ed4aaea57beb5e293d1298a219b6fff425986c8d1de2e0c8cf300fa56fe98602",
+      "candidate_bytes": 6806,
+      "candidate_sha256": "bf92af9702d5233a8d073231c3be64cf19c555c5750f5875cd78f2f886d540a1",
+      "changed_path_fields": 15,
+      "json_pointer_changes": [
+        {
+          "json_pointer": "/endpoint_receipts/0/file",
+          "after": "historical-location/991970c8927e8955/variant_summary_2025-10.txt.gz.selected_all_associations.jsonl.gz"
+        },
+        {
+          "json_pointer": "/endpoint_receipts/1/file",
+          "after": "historical-location/98bedcd58ffc5c35/variant_summary_2026-10.txt.gz.selected_all_associations.jsonl.gz"
+        },
+        {
+          "json_pointer": "/monthly_receipts/0/file",
+          "after": "historical-location/64868d704192bf12/submission_summary_2025-10.txt.gz.SCV_closed.jsonl.gz"
+        },
+        {
+          "json_pointer": "/monthly_receipts/1/file",
+          "after": "historical-location/fb11c937947176ed/submission_summary_2025-11.txt.gz.SCV_closed.jsonl.gz"
+        },
+        {
+          "json_pointer": "/monthly_receipts/2/file",
+          "after": "historical-location/f6273085eef6a0e6/submission_summary_2025-12.txt.gz.SCV_closed.jsonl.gz"
+        },
+        {
+          "json_pointer": "/monthly_receipts/3/file",
+          "after": "historical-location/54288ee84e83f2ae/submission_summary_2026-01.txt.gz.SCV_closed.jsonl.gz"
+        },
+        {
+          "json_pointer": "/monthly_receipts/4/file",
+          "after": "historical-location/181129e13cfbd305/submission_summary_2026-02.txt.gz.SCV_closed.jsonl.gz"
+        },
+        {
+          "json_pointer": "/monthly_receipts/5/file",
+          "after": "historical-location/211ff0c9821de437/submission_summary_2026-03.txt.gz.SCV_closed.jsonl.gz"
+        },
+        {
+          "json_pointer": "/monthly_receipts/6/file",
+          "after": "historical-location/67efe0a86f1e04b4/submission_summary_2026-04.txt.gz.SCV_closed.jsonl.gz"
+        },
+        {
+          "json_pointer": "/monthly_receipts/7/file",
+          "after": "historical-location/4887636c0be85814/submission_summary_2026-05.txt.gz.SCV_closed.jsonl.gz"
+        },
+        {
+          "json_pointer": "/monthly_receipts/8/file",
+          "after": "historical-location/d0ae691ac009f1e4/submission_summary_2026-06.txt.gz.SCV_closed.jsonl.gz"
+        },
+        {
+          "json_pointer": "/monthly_receipts/9/file",
+          "after": "historical-location/26c6c15975bb7310/submission_summary_2026-07.txt.gz.SCV_closed.jsonl.gz"
+        },
+        {
+          "json_pointer": "/monthly_receipts/10/file",
+          "after": "historical-location/200a5068b6b4d00c/submission_summary_2026-08.txt.gz.SCV_closed.jsonl.gz"
+        },
+        {
+          "json_pointer": "/monthly_receipts/11/file",
+          "after": "historical-location/046f347ae21c0a55/submission_summary_2026-09.txt.gz.SCV_closed.jsonl.gz"
+        },
+        {
+          "json_pointer": "/monthly_receipts/12/file",
+          "after": "historical-location/7f09d91b0ba9a5b0/submission_summary_2026-10.txt.gz.SCV_closed.jsonl.gz"
+        }
+      ]
+    },
+    {
+      "path": "resources/frozen/source_deletion_protocol_original.json",
+      "original_bytes": 38268,
+      "original_sha256": "bab32cda9870704180de4ec24a0afcdca83791bf3ee88d01a7f9fc8b626984e6",
+      "candidate_bytes": 36877,
+      "candidate_sha256": "3630b0b9541877437ed3ff69d03c1cad4b627d774f1c49be1b15e42dd0899ab7",
+      "changed_path_fields": 18,
+      "json_pointer_changes": [
+        {
+          "json_pointer": "/inputs/0/path",
+          "after": "historical-location/87b1a965a18ac436/27_all35_gene_descriptive_census.tsv"
+        },
+        {
+          "json_pointer": "/inputs/0/sealed_in",
+          "after": "historical-location/25686e548268bdb4/SHA256_ALL_LOCAL_REVIEW_CONTENT_20261006.tsv"
+        },
+        {
+          "json_pointer": "/inputs/1/path",
+          "after": "historical-location/957798a920318b65/29_all_primary_submitter_concentration.tsv"
+        },
+        {
+          "json_pointer": "/inputs/1/sealed_in",
+          "after": "historical-location/25686e548268bdb4/SHA256_ALL_LOCAL_REVIEW_CONTENT_20261006.tsv"
+        },
+        {
+          "json_pointer": "/inputs/2/path",
+          "after": "historical-location/d977c72ab243d739/33_all35_corrected_scope_counts.tsv"
+        },
+        {
+          "json_pointer": "/inputs/2/sealed_in",
+          "after": "historical-location/25686e548268bdb4/SHA256_ALL_LOCAL_REVIEW_CONTENT_20261006.tsv"
+        },
+        {
+          "json_pointer": "/inputs/3/path",
+          "after": "historical-location/737689f303eced2d/36_corrected_scope_categories_with_clinical_reading_limits.tsv"
+        },
+        {
+          "json_pointer": "/inputs/3/sealed_in",
+          "after": "historical-location/25686e548268bdb4/SHA256_ALL_LOCAL_REVIEW_CONTENT_20261006.tsv"
+        },
+        {
+          "json_pointer": "/inputs/4/path",
+          "after": "historical-location/5eb419038000fc9b/40_all_selected_SCV_eligibility_and_source_refs.jsonl.gz"
+        },
+        {
+          "json_pointer": "/inputs/4/sealed_in",
+          "after": "historical-location/25686e548268bdb4/SHA256_ALL_LOCAL_REVIEW_CONTENT_20261006.tsv"
+        },
+        {
+          "json_pointer": "/inputs/5/path",
+          "after": "historical-location/30fda6e722e56fd8/41_all_primary_major_events.jsonl.gz"
+        },
+        {
+          "json_pointer": "/inputs/5/sealed_in",
+          "after": "historical-location/25686e548268bdb4/SHA256_ALL_LOCAL_REVIEW_CONTENT_20261006.tsv"
+        },
+        {
+          "json_pointer": "/inputs/6/path",
+          "after": "historical-location/14287bce782777c7/47_all4078_original_and_corrected_condition_scope_with_sources.jsonl.gz"
+        },
+        {
+          "json_pointer": "/inputs/6/sealed_in",
+          "after": "historical-location/25686e548268bdb4/SHA256_ALL_LOCAL_REVIEW_CONTENT_20261006.tsv"
+        },
+        {
+          "json_pointer": "/inputs/7/path",
+          "after": "historical-location/d733ff19b1bdfa2b/01_all1141_variant_level_transparency_and_comparability.tsv"
+        },
+        {
+          "json_pointer": "/inputs/7/sealed_in",
+          "after": "historical-location/b1af0fb7eeb4257f/COMPLETE_首项含结果解释报告.json"
+        },
+        {
+          "json_pointer": "/inputs/8/path",
+          "after": "historical-location/5a0e445facae1876/02_all_endpoint_source_records_with_provenance.tsv"
+        },
+        {
+          "json_pointer": "/inputs/8/sealed_in",
+          "after": "historical-location/b1af0fb7eeb4257f/COMPLETE_首项含结果解释报告.json"
+        }
+      ]
+    },
+    {
+      "path": "resources/frozen/transparency_protocol_original.json",
+      "original_bytes": 6593,
+      "original_sha256": "7e0e558f9abf2ef24bb37305252f3b1320258024d909eadd6f04e270680a39c0",
+      "candidate_bytes": 6330,
+      "candidate_sha256": "903df2c724d2c7fca65894cee05ce80c9e5732ab8009f21a7a27f4c8ce88e0ed",
+      "changed_path_fields": 4,
+      "json_pointer_changes": [
+        {
+          "json_pointer": "/input_contract/0/path",
+          "after": "historical-location/ec18d895b8452c87/48_all1141_dated_contrast_interpretation_source_chains.jsonl.gz"
+        },
+        {
+          "json_pointer": "/input_contract/1/path",
+          "after": "historical-location/87b1a965a18ac436/27_all35_gene_descriptive_census.tsv"
+        },
+        {
+          "json_pointer": "/input_contract/2/path",
+          "after": "historical-location/957798a920318b65/29_all_primary_submitter_concentration.tsv"
+        },
+        {
+          "json_pointer": "/input_contract/3/path",
+          "after": "historical-location/d977c72ab243d739/33_all35_corrected_scope_counts.tsv"
+        }
+      ]
+    },
+    {
+      "path": "resources/full_raw_core/frozen/external_dictionary_original.json",
+      "original_bytes": 121233,
+      "original_sha256": "c1c65ba7272a4b3f7cf34dc79cc0f2663628c233d4cac95d5ea72e156d8920ef",
+      "candidate_bytes": 117101,
+      "candidate_sha256": "4c89f7d6f27c37780fef75bfcd80f4c8b1458ab5be01d35bbbc52fcfcd50829d",
+      "changed_path_fields": 6,
+      "json_pointer_changes": [
+        {
+          "json_pointer": "/sources/NCBI_gene_condition_source_id.tsv/path",
+          "after": "historical-location/da25018213e3df8d/NCBI_gene_condition_source_id.tsv"
+        },
+        {
+          "json_pointer": "/sources/NCBI_disease_names.tsv/path",
+          "after": "historical-location/9eec3b8e0c1f5460/NCBI_disease_names.tsv"
+        },
+        {
+          "json_pointer": "/sources/NCBI_ConceptID_history.tsv/path",
+          "after": "historical-location/b24f3d4733083b35/NCBI_ConceptID_history.tsv"
+        },
+        {
+          "json_pointer": "/sources/hp.obo/path",
+          "after": "historical-location/e453da44693e3a94/hp.obo"
+        },
+        {
+          "json_pointer": "/sources/phenotype.hpoa/path",
+          "after": "historical-location/2dee30668aba6367/phenotype.hpoa"
+        },
+        {
+          "json_pointer": "/sources/genes_to_disease.txt/path",
+          "after": "historical-location/17c982bd9cf34ce0/genes_to_disease.txt"
+        }
+      ]
+    },
+    {
+      "path": "resources/full_raw_core/frozen/release_and_use_task_protocol.json",
+      "original_bytes": 3144,
+      "original_sha256": "0b7f6f447e9484e59eefa1a6a2f040f688cfc4b902625a5b928a754e91b3a1e2",
+      "candidate_bytes": 2973,
+      "candidate_sha256": "1b3205e2f2a28ec6f547d950392c98f87506a08e6cd81eaa3d507f606d888b9b",
+      "changed_path_fields": 6,
+      "json_pointer_changes": [
+        {
+          "json_pointer": "/inputs/0/path",
+          "after": "historical-location/af5d70ae6baf43f0/protocol.json"
+        },
+        {
+          "json_pointer": "/inputs/1/path",
+          "after": "historical-location/9bf7b260e19053ec/scientific_review.json"
+        },
+        {
+          "json_pointer": "/inputs/2/path",
+          "after": "historical-location/54c558ac8e8794fa/protocol.json"
+        },
+        {
+          "json_pointer": "/inputs/3/path",
+          "after": "historical-location/b7697f312a2832f6/scientific_review.json"
+        },
+        {
+          "json_pointer": "/inputs/4/path",
+          "after": "historical-location/4e8d7526f90baaea/post_review_consensus_mapping.json"
+        },
+        {
+          "json_pointer": "/release_path",
+          "after": "historical-location/b2bd95c43a7e56fb/stone_record_audit_portable_release_v1"
+        }
+      ]
+    },
+    {
+      "path": "resources/full_raw_core/frozen/scientific_protocol_original.json",
+      "original_bytes": 26797,
+      "original_sha256": "44c6202ddeb48087248a382fd01bccaba0e94b43dc50a0e6ab3d6e3a192acdcd",
+      "candidate_bytes": 25591,
+      "candidate_sha256": "f2fa254e7343869c94751fdeb62bfbdf93c0ff6a5db114a4a9cf5ccc3c21bff5",
+      "changed_path_fields": 19,
+      "json_pointer_changes": [
+        {
+          "json_pointer": "/input_review/path",
+          "after": "historical-location/5f76bb701e0a3ca3/scientific_review.json"
+        },
+        {
+          "json_pointer": "/inputs/0/file",
+          "after": "historical-location/00424129dc544768/variant_summary_2025-10.txt.gz"
+        },
+        {
+          "json_pointer": "/inputs/1/file",
+          "after": "historical-location/e96b6c6ff621efba/variant_summary_2026-10.txt.gz"
+        },
+        {
+          "json_pointer": "/inputs/2/file",
+          "after": "historical-location/7a93b2d4dcb6a488/submission_summary_2025-10.txt.gz"
+        },
+        {
+          "json_pointer": "/inputs/3/file",
+          "after": "historical-location/b07c9be4bb79baa0/submission_summary_2025-11.txt.gz"
+        },
+        {
+          "json_pointer": "/inputs/4/file",
+          "after": "historical-location/75eebfcc5d3dc186/submission_summary_2025-12.txt.gz"
+        },
+        {
+          "json_pointer": "/inputs/5/file",
+          "after": "historical-location/de616b20ec3b155e/submission_summary_2026-01.txt.gz"
+        },
+        {
+          "json_pointer": "/inputs/6/file",
+          "after": "historical-location/2a4bd0aa04b4b9b0/submission_summary_2026-02.txt.gz"
+        },
+        {
+          "json_pointer": "/inputs/7/file",
+          "after": "historical-location/ad8fb905f7dd9628/submission_summary_2026-03.txt.gz"
+        },
+        {
+          "json_pointer": "/inputs/8/file",
+          "after": "historical-location/63452a8d7731e400/submission_summary_2026-04.txt.gz"
+        },
+        {
+          "json_pointer": "/inputs/9/file",
+          "after": "historical-location/10008237df62759c/submission_summary_2026-05.txt.gz"
+        },
+        {
+          "json_pointer": "/inputs/10/file",
+          "after": "historical-location/1561c1eabbe04ebf/submission_summary_2026-06.txt.gz"
+        },
+        {
+          "json_pointer": "/inputs/11/file",
+          "after": "historical-location/197b0415e0068d52/submission_summary_2026-07.txt.gz"
+        },
+        {
+          "json_pointer": "/inputs/12/file",
+          "after": "historical-location/364de6a970b955a9/submission_summary_2026-08.txt.gz"
+        },
+        {
+          "json_pointer": "/inputs/13/file",
+          "after": "historical-location/c2c611655cd259bc/submission_summary_2026-09.txt.gz"
+        },
+        {
+          "json_pointer": "/inputs/14/file",
+          "after": "historical-location/fea631a395d4533c/submission_summary_2026-10.txt.gz"
+        },
+        {
+          "json_pointer": "/external_panel/path",
+          "after": "historical-location/12edb955ae913814/PanelApp149_signedoff6_2_all_external_genes.json"
+        },
+        {
+          "json_pointer": "/external_dictionary/path",
+          "after": "historical-location/1d1a77e99740b200/external_fixed35_gene_condition_phenotype_identity_only.json"
+        },
+        {
+          "json_pointer": "/storage",
+          "after": "historical-location/23846508dd2c9d5e/derived_stage39"
+        }
+      ]
+    },
+    {
+      "path": "resources/full_raw_core/frozen/scope_repair_protocol_original.json",
+      "original_bytes": 5701,
+      "original_sha256": "c5f3dbe034af2847098f0f1c2983b4accaece0770b2e1173af6b1fa8d02e011b",
+      "candidate_bytes": 5427,
+      "candidate_sha256": "3eafba71736dc1d9bd0a7afcd126468292382355bb6068aef7644eaf29db87b5",
+      "changed_path_fields": 6,
+      "json_pointer_changes": [
+        {
+          "json_pointer": "/inputs/0/path",
+          "after": "historical-location/af5d70ae6baf43f0/protocol.json"
+        },
+        {
+          "json_pointer": "/inputs/1/path",
+          "after": "historical-location/fcdc47ee934ec6b3/descriptive_results_pending_independent_QA.json"
+        },
+        {
+          "json_pointer": "/inputs/2/path",
+          "after": "historical-location/f6f0988dc530cda6/all_latest_PLP_aggregate_condition_scope_and_sources.jsonl.gz"
+        },
+        {
+          "json_pointer": "/inputs/3/path",
+          "after": "historical-location/1d1a77e99740b200/external_fixed35_gene_condition_phenotype_identity_only.json"
+        },
+        {
+          "json_pointer": "/inputs/4/path",
+          "after": "historical-location/951f1560df8df8c8/R2_ledger.json"
+        },
+        {
+          "json_pointer": "/inputs/5/path",
+          "after": "historical-location/314989fb9f69557b/R3_ledger.json"
+        }
+      ]
+    }
+  ],
+  "code_metadata_changed": [
+    "code/analysis/external_resources.json",
+    "code/analysis/CODE_EXPORT_MANIFEST.json"
+  ],
+  "all_generating_algorithms_driver_guard_and_adaptation_bytes_unchanged": true,
+  "canonical_repository_commit": "2659e8e289aed0c44b1c3125efdb24de7b07dc8e",
+  "project_visibility": "private",
+  "public_deposit": false
+}

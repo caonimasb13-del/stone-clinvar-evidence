@@ -1,3 +1,17 @@
+# Authorized public-release preparation - 31 October 2026
+
+The authors have authorized public release of this repository and three fixed ZIP assets. Actual public access is pending publication and download verification; see PUBLICATION_STATUS.json and metadata/release_assets_v1.0.0.json.
+
+The current scientific algorithms, numerical driver and write guard are unchanged from the verified private baseline. analysis/external_resources.json and CODE_EXPORT_MANIFEST.json now declare the seven location-only JSON projections used by the complete portable bundle. metadata/reproduction/path_projection.json preserves original and projected file identities; the local map containing original computer locations is excluded. All other scientific keys, values, thresholds and upstream source hashes remain unchanged.
+
+The matching portable input bundle passed one complete same-host check: nine JSONL outputs with116505 heterogeneous overlapping comparison rows and23 generated source tables. Three manual/documentary tables and19 later SX tables are not regenerated. This is not biological or second-host validation. Use the matching code and portable input archives, rather than mixing the previous resource hash manifests with the projected copies.
+
+The reviewed ZIP filenames retain PRIVATE to preserve their exact identity and pre-publication byte freeze. Their actual access status is determined by the release record, not that historical filename. No manuscript is included or submitted. No DOI has been assigned.
+
+The previous snapshot documentation follows for historical context; current release status takes precedence.
+
+---
+
 # Stone ClinVar evidence
 
 Preparation repository for source-linked interpretation of ClinVar assertions in a fixed nephrolithiasis gene panel.

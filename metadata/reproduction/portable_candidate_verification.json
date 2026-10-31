@@ -1,0 +1,84 @@
+{
+  "status": "PASS_SINGLE_PATH_PROJECTED_PACKAGE_CONTINUOUS_VERIFICATION_ON_SAME_HOST",
+  "utc": "2026-10-31T04:29:55.942585+00:00",
+  "archive_sha256": "88b6331e3beaf9a548d9d9782f14d790123dc6f92af11ce6e9cf652d71521f72",
+  "archive_bytes": 110297439,
+  "members": 122,
+  "actual_exit_code": 0,
+  "complete_entry_attempts": 1,
+  "all66_runtime_files_present": true,
+  "unchanged_runtime_files": 59,
+  "JSON_path_only_projections": 7,
+  "normalized_path_strings": 74,
+  "scientific_algorithms_unchanged": true,
+  "core9": [
+    {
+      "file": "all_endpoint_variant_identity_and_exclusions.jsonl.gz",
+      "rows": 24570,
+      "all_scientific_rows_equal": true
+    },
+    {
+      "file": "all_selected_SCV_eligibility_and_source_refs.jsonl.gz",
+      "rows": 40834,
+      "all_scientific_rows_equal": true
+    },
+    {
+      "file": "all_primary_major_events.jsonl.gz",
+      "rows": 36,
+      "all_scientific_rows_equal": true
+    },
+    {
+      "file": "all_five_level_classification_events.jsonl.gz",
+      "rows": 77,
+      "all_scientific_rows_equal": true
+    },
+    {
+      "file": "all_adjacent_pair_major_events.jsonl.gz",
+      "rows": 90,
+      "all_scientific_rows_equal": true
+    },
+    {
+      "file": "all_current_dated_assertion_contrasts.jsonl.gz",
+      "rows": 21371,
+      "all_scientific_rows_equal": true
+    },
+    {
+      "file": "all_latest_PLP_aggregate_condition_scope_and_sources.jsonl.gz",
+      "rows": 4078,
+      "all_scientific_rows_equal": true
+    },
+    {
+      "file": "all_current_dated_contrast_complete_ID_sensitivity.jsonl.gz",
+      "rows": 21371,
+      "all_scientific_rows_equal": true
+    },
+    {
+      "file": "all4078_original_and_corrected_condition_scope_with_sources.jsonl.gz",
+      "rows": 4078,
+      "all_scientific_rows_equal": true
+    }
+  ],
+  "overlapping_heterogeneous_comparison_rows": 116505,
+  "table_status_counts": {
+    "REGENERATED_ALL_HEADERS_AND_CELLS_EXACT": 23,
+    "PRESERVED_DOCUMENTARY_OR_MANUAL_INPUT_NOT_REGENERATED": 3
+  },
+  "all23_generated_table_headers_and_cells_exact": true,
+  "manual_tables_not_regenerated": 3,
+  "later19_SX_tables_not_regenerated": true,
+  "saved21371_UI_reports_not_regenerated": true,
+  "audited_processes": 8,
+  "audit_counts": {
+    "bundle_read_opens": 156,
+    "workspace_read_opens": 344,
+    "runtime_read_opens": 360,
+    "blocked_outside_allowlist_reads": 0,
+    "blocked_network_events": 0
+  },
+  "all_candidate_input_hashes_unchanged_after_execution": true,
+  "original_and_new_verification_core_counts_equal": true,
+  "original_raw_extraction_repeated": false,
+  "new_clinical_or_inferential_tests": 0,
+  "full_article_pipeline_or_second_host_or_biological_replication": false,
+  "public_release_or_DOI_or_submission": false
+}

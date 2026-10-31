@@ -227,35 +227,47 @@
     },
     {
       "path": "frozen/selected_extraction_receipt_verified_old_replay.json",
-      "bytes": 7622,
-      "sha256": "ed4aaea57beb5e293d1298a219b6fff425986c8d1de2e0c8cf300fa56fe98602",
+      "bytes": 6806,
+      "sha256": "bf92af9702d5233a8d073231c3be64cf19c555c5750f5875cd78f2f886d540a1",
       "included_in_GitHub_export": false,
       "access_status": "LOCAL_FROZEN_COPY_EXISTS_PUBLIC_INPUT_DELIVERY_NOT_ESTABLISHED",
-      "special_role": "Required external configuration, checkpoint receipt or comparison table"
+      "special_role": "Required external configuration, checkpoint receipt or comparison table",
+      "original_frozen_bytes": 7622,
+      "original_frozen_sha256": "ed4aaea57beb5e293d1298a219b6fff425986c8d1de2e0c8cf300fa56fe98602",
+      "path_text_projection_only": true
     },
     {
       "path": "frozen/source_deletion_protocol_original.json",
-      "bytes": 38268,
-      "sha256": "bab32cda9870704180de4ec24a0afcdca83791bf3ee88d01a7f9fc8b626984e6",
+      "bytes": 36877,
+      "sha256": "3630b0b9541877437ed3ff69d03c1cad4b627d774f1c49be1b15e42dd0899ab7",
       "included_in_GitHub_export": false,
       "access_status": "LOCAL_FROZEN_COPY_EXISTS_PUBLIC_INPUT_DELIVERY_NOT_ESTABLISHED",
-      "special_role": "Required external configuration, checkpoint receipt or comparison table"
+      "special_role": "Required external configuration, checkpoint receipt or comparison table",
+      "original_frozen_bytes": 38268,
+      "original_frozen_sha256": "bab32cda9870704180de4ec24a0afcdca83791bf3ee88d01a7f9fc8b626984e6",
+      "path_text_projection_only": true
     },
     {
       "path": "frozen/transparency_protocol_original.json",
-      "bytes": 6593,
-      "sha256": "7e0e558f9abf2ef24bb37305252f3b1320258024d909eadd6f04e270680a39c0",
+      "bytes": 6330,
+      "sha256": "903df2c724d2c7fca65894cee05ce80c9e5732ab8009f21a7a27f4c8ce88e0ed",
       "included_in_GitHub_export": false,
       "access_status": "LOCAL_FROZEN_COPY_EXISTS_PUBLIC_INPUT_DELIVERY_NOT_ESTABLISHED",
-      "special_role": "Required external configuration, checkpoint receipt or comparison table"
+      "special_role": "Required external configuration, checkpoint receipt or comparison table",
+      "original_frozen_bytes": 6593,
+      "original_frozen_sha256": "7e0e558f9abf2ef24bb37305252f3b1320258024d909eadd6f04e270680a39c0",
+      "path_text_projection_only": true
     },
     {
       "path": "full_raw_core/frozen/external_dictionary_original.json",
-      "bytes": 121233,
-      "sha256": "c1c65ba7272a4b3f7cf34dc79cc0f2663628c233d4cac95d5ea72e156d8920ef",
+      "bytes": 117101,
+      "sha256": "4c89f7d6f27c37780fef75bfcd80f4c8b1458ab5be01d35bbbc52fcfcd50829d",
       "included_in_GitHub_export": false,
       "access_status": "LOCAL_FROZEN_COPY_EXISTS_PUBLIC_INPUT_DELIVERY_NOT_ESTABLISHED",
-      "special_role": "Required external configuration, checkpoint receipt or comparison table"
+      "special_role": "Required external configuration, checkpoint receipt or comparison table",
+      "original_frozen_bytes": 121233,
+      "original_frozen_sha256": "c1c65ba7272a4b3f7cf34dc79cc0f2663628c233d4cac95d5ea72e156d8920ef",
+      "path_text_projection_only": true
     },
     {
       "path": "full_raw_core/frozen/external_panel_original.json",
@@ -267,27 +279,36 @@
     },
     {
       "path": "full_raw_core/frozen/release_and_use_task_protocol.json",
-      "bytes": 3144,
-      "sha256": "0b7f6f447e9484e59eefa1a6a2f040f688cfc4b902625a5b928a754e91b3a1e2",
+      "bytes": 2973,
+      "sha256": "1b3205e2f2a28ec6f547d950392c98f87506a08e6cd81eaa3d507f606d888b9b",
       "included_in_GitHub_export": false,
       "access_status": "LOCAL_FROZEN_COPY_EXISTS_PUBLIC_INPUT_DELIVERY_NOT_ESTABLISHED",
-      "special_role": "Required external configuration, checkpoint receipt or comparison table"
+      "special_role": "Required external configuration, checkpoint receipt or comparison table",
+      "original_frozen_bytes": 3144,
+      "original_frozen_sha256": "0b7f6f447e9484e59eefa1a6a2f040f688cfc4b902625a5b928a754e91b3a1e2",
+      "path_text_projection_only": true
     },
     {
       "path": "full_raw_core/frozen/scientific_protocol_original.json",
-      "bytes": 26797,
-      "sha256": "44c6202ddeb48087248a382fd01bccaba0e94b43dc50a0e6ab3d6e3a192acdcd",
+      "bytes": 25591,
+      "sha256": "f2fa254e7343869c94751fdeb62bfbdf93c0ff6a5db114a4a9cf5ccc3c21bff5",
       "included_in_GitHub_export": false,
       "access_status": "LOCAL_FROZEN_COPY_EXISTS_PUBLIC_INPUT_DELIVERY_NOT_ESTABLISHED",
-      "special_role": "Required external configuration, checkpoint receipt or comparison table"
+      "special_role": "Required external configuration, checkpoint receipt or comparison table",
+      "original_frozen_bytes": 26797,
+      "original_frozen_sha256": "44c6202ddeb48087248a382fd01bccaba0e94b43dc50a0e6ab3d6e3a192acdcd",
+      "path_text_projection_only": true
     },
     {
       "path": "full_raw_core/frozen/scope_repair_protocol_original.json",
-      "bytes": 5701,
-      "sha256": "c5f3dbe034af2847098f0f1c2983b4accaece0770b2e1173af6b1fa8d02e011b",
+      "bytes": 5427,
+      "sha256": "3eafba71736dc1d9bd0a7afcd126468292382355bb6068aef7644eaf29db87b5",
       "included_in_GitHub_export": false,
       "access_status": "LOCAL_FROZEN_COPY_EXISTS_PUBLIC_INPUT_DELIVERY_NOT_ESTABLISHED",
-      "special_role": "Required external configuration, checkpoint receipt or comparison table"
+      "special_role": "Required external configuration, checkpoint receipt or comparison table",
+      "original_frozen_bytes": 5701,
+      "original_frozen_sha256": "c5f3dbe034af2847098f0f1c2983b4accaece0770b2e1173af6b1fa8d02e011b",
+      "path_text_projection_only": true
     }
   ],
   "private_local_preflight_can_use_existing_module_as_resources_dir": true,
@@ -309,5 +330,6 @@
       "reason": "Retained historical local evidence; not required by exported numerical generation or code guard."
     }
   ],
-  "public_input_access_gap_includes_protected_manuscript_or_ledger": false
+  "public_input_access_gap_includes_protected_manuscript_or_ledger": false,
+  "portable_projection_note": "This local candidate applies PATH_PROJECTION.json to7 author-owned protocol/receipt files only. Original upstream data and scientific values remain unchanged. Repository baseline metadata describes original identities; this manifest declares executable projection identities."
 }

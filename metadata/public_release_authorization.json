@@ -1,0 +1,8 @@
+{
+  "date": "2026-10-31",
+  "exact_author_answer": "确认",
+  "question": "Authorize this exact repository to become public and the exact3 reviewed packages to be archived publicly.",
+  "public_release_authorized": true,
+  "project_licences": "MIT software; CC-BY-4.0 author-original results/docs; third-party terms retained",
+  "manuscript_submission_authorized": false
+}

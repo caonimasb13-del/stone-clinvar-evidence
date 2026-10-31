@@ -63,8 +63,8 @@
     },
     {
       "path": "external_resources.json",
-      "bytes": 16723,
-      "sha256": "548eeb8cf7bedf1a7cc32436e31ed4e120d94d66a311738b353309cdb322a25b"
+      "bytes": 18304,
+      "sha256": "37b16bde1fec973bb11e5d1c653c3b5cd7ede37f0f286945825ddcd994fe73ff"
     },
     {
       "path": "input_identities.json",

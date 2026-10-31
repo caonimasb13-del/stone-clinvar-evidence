@@ -1,0 +1,31 @@
+{
+  "status": "AUTHOR_APPROVED_RELEASE_ASSETS_AWAITING_PUBLIC_UPLOAD_AND_DOWNLOAD_VERIFICATION",
+  "tag": "v1.0.0",
+  "assets": [
+    {
+      "name": "Stone_ClinVar_fixed_checkpoint_PORTABLE_PRIVATE.zip",
+      "bytes": 110297439,
+      "sha256": "88b6331e3beaf9a548d9d9782f14d790123dc6f92af11ce6e9cf652d71521f72",
+      "role": "Complete standalone bounded numerical reproduction candidate",
+      "planned_download_url": "https://github.com/caonimasb13-del/stone-clinvar-evidence/releases/download/v1.0.0/Stone_ClinVar_fixed_checkpoint_PORTABLE_PRIVATE.zip",
+      "public_download_verified": false
+    },
+    {
+      "name": "Stone_ClinVar_CODE_for_PORTABLE_INPUTS_PRIVATE.zip",
+      "bytes": 105402,
+      "sha256": "d9541e897a1373ad5ded7e8b676c116d3ab79afb9f490b064c601769cbbe74b4",
+      "role": "Matching code-only sibling for the new7 path projections",
+      "planned_download_url": "https://github.com/caonimasb13-del/stone-clinvar-evidence/releases/download/v1.0.0/Stone_ClinVar_CODE_for_PORTABLE_INPUTS_PRIVATE.zip",
+      "public_download_verified": false
+    },
+    {
+      "name": "Stone_ClinVar_derived_resource_LICENSED_PRIVATE.zip",
+      "bytes": 18402823,
+      "sha256": "bf8656ade3388cd059ffb9076ba27f6d9a0e9053f3d5afe000c4233ea05cbc23",
+      "role": "Complete saved derived resource; unchanged earlier package",
+      "planned_download_url": "https://github.com/caonimasb13-del/stone-clinvar-evidence/releases/download/v1.0.0/Stone_ClinVar_derived_resource_LICENSED_PRIVATE.zip",
+      "public_download_verified": false
+    }
+  ],
+  "DOI": null
+}

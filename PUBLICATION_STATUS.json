@@ -1,9 +1,9 @@
 {
-  "status": "PRIVATE_SCIENTIFIC_CODE_CANDIDATE_EXTERNAL_INPUT_DELIVERY_PENDING",
+  "status": "PUBLIC_RELEASE_AUTHORIZED_AWAITING_ACTUAL_REPOSITORY_CHANGE_ASSET_PUBLICATION_AND_DOWNLOAD_VERIFICATION",
   "scientific_code_or_data_included": true,
   "input_identity_metadata_included": true,
-  "public_release_authorized": false,
-  "repository_visibility_must_be_verified_before_upload": "private",
+  "public_release_authorized": true,
+  "repository_visibility_must_be_verified_before_upload": "public",
   "licence_assigned": "MIT for author-controlled software; CC-BY-4.0 for author-original results/documentation; provider terms separate",
   "DOI": null,
   "new_release_created": false,
@@ -43,5 +43,13 @@
     "author_original_results_documentation": "CC-BY-4.0",
     "third_party": "original terms retained"
   },
-  "project_licence_decision": "metadata/project_licence_decision.json"
+  "project_licence_decision": "metadata/project_licence_decision.json",
+  "repository_visibility_last_verified": "private",
+  "portable_resource_projection_applied": true,
+  "projected_JSON_resource_files": 7,
+  "portable_path_strings_normalized": 74,
+  "latest_portable_same_host_core_entry_passed": true,
+  "release_tag": "v1.0.0",
+  "release_published": false,
+  "all3_assets_public_download_verified": false
 }
